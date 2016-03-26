@@ -1,0 +1,9 @@
+/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/classes/debug
+/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-d0cdc5c7b1aef33ca4e0d6353027c573b79154ee.jar
+/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/classes-ccd7887bb70d8f52fdc2520666732397600603d2.jar
+/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-a01b08246648ba7472bc033d8cd03b24c980a849.jar
+/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/androidplot-core-0.6.1-38d5d630c4fbb6c359b6ea1e01527957aa549d14.jar
+/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/dropbox-sync-sdk-android-e27347ac5183dc38a91d8b96f2c8e0c8afdff095.jar
+/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/classes-83a78f1b5c309a8d1785c569ee7799144190c51a.jar
+/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/androidplot-core-0.6.1-javadoc-5f8498ab5edf0169ce3a26e9cc5505e61da17730.jar
+/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/classes-d72e0a147cc843bf231273d4d4513eec22b134cb.jar

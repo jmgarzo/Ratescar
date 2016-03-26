@@ -1,0 +1,437 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    /**
+    * id_repostaje ->INTEGER
+    * id_coche ->INTEGER
+    * id_combustible ->INTEGER
+    * km_repostaje ->INTEGER
+    * litros ->FLOAT
+    * precio_litro ->FLOAT
+    * es_completo ->BOOLEAN
+    * es_aa ->BOOLEAN
+    * es_remolque ->BOOLEAN
+    * es_baca ->BOOLEAN
+    * tipo_carretera ->TEXT
+    * tipo_pago ->TEXT
+    * velocidad_media ->FLOAT
+    * area_servicio ->TEXT
+    * fecha_repostaje ->DATE
+    * tipo_conduccion ->TEXT
+    * comentarios ->TEXT
+    */
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbSeleccionarCoche"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_seleccionar_coche"
+                    android:textStyle="bold" />
+
+                <!-- COCHES -->
+
+                <Spinner
+                    android:id="@+id/CmbCoches"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <!--
+         	String sqlCreateRepostajes = "CREATE TABLE Repostajes (id_repostaje INTEGER PRIMARY KEY, id_coche INTEGER NOT NULL REFERENCES Coches (id_coche), km_repostaje INTEGER, litros FLOAT, "
+			+ " precio_litro FLOAT,  area_servicio TEXT, fecha_repostaje) ";
+            -->
+            <!-- FECHA RESPOSTAJE -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbFechaRepostaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_fecha_repostaje"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtFechaRespostaje"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- KILOMETROS RESPOSTAJE -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbKmRepostaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_km_repostaje"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtKmRepostaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="125dp"
+                    android:numeric="decimal"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/lbUnidadDistanciaRepostaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- PRECIO RESPOSTAJE -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbPrecio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_precio"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtPrecio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="100dp"
+                    android:numeric="decimal"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/lbMonedaPrecioRepostaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- COSTO RESPOSTAJE -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbCosteRepostaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_costo"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtCosteRepostaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="100dp"
+                    android:numeric="decimal"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/lbMonedaCosteRepostaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- LITROS RESPOSTAJE -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbLitros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_cantidad"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtLitros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="100dp"
+                    android:numeric="decimal"
+                    android:inputType="numberDecimal" />
+
+                <TextView
+                    android:id="@+id/lbUnidadLitros"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <!-- ES COMPLETA -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbTipoRepostaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_tipo_repostaje"
+                    android:textStyle="bold" />
+
+                <RadioGroup
+                    android:id="@+id/rbTipoRepostaje"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbTipoRepostaje1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rb_completo" />
+
+                    <RadioButton
+                        android:id="@+id/rbTipoRepostaje2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rb_parcial" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <!-- TIPO DE COMBUSTIBLE -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbTipoDeCombustible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_tipo_combustible"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/cmbTipoCombustible"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- CHECKBOX ES AA REMOLQUE BACA -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/chkEsAA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/chk_aa" />
+
+                <CheckBox
+                    android:id="@+id/chkEsRemolque"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/chk_remolque" />
+
+                <CheckBox
+                    android:id="@+id/chkEsBaca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="false"
+                    android:text="@string/chk_baca" />
+            </LinearLayout>
+
+            <!-- Tipo Conducción -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/lbTipoConduccion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_tipo_conduccion" />
+
+                <RadioGroup
+                    android:id="@+id/rbTipoConduccion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <RadioButton
+                        android:id="@+id/rbTipoConduccion1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rb_normal" />
+
+                    <RadioButton
+                        android:id="@+id/rbTipoConduccion2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rb_economica" />
+
+                    <RadioButton
+                        android:id="@+id/rbTipoConduccion3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/rb_deportiva" />
+                </RadioGroup>
+            </LinearLayout>
+
+            <!-- TIPO DE CARRETERA -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbTipoDeCarretera"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_tipo_carretera" />
+
+                <Spinner
+                    android:id="@+id/cmbTipoCarretera"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- TIPO DE PAGO -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbTipoDePago"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_tipo_pago" />
+
+                <Spinner
+                    android:id="@+id/cmbTipoPago"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- VELOCIDAD MEDIA -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbVelocidadMedia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_velocidad_media" />
+
+                <EditText
+                    android:id="@+id/txtVelocidadMedia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:minWidth="100dp"
+                    android:numeric="decimal"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6" />
+
+                <TextView
+                    android:id="@+id/lbUnidadVelocidadRepostaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!-- ESTACION DE SERVICIO -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbEstacionServicio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_estacion_servicio" />
+
+                <!--<EditText-->
+                <!--android:id="@+id/txtEstacionServicio"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+
+                <AutoCompleteTextView xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/txtEstacionServicioAuto"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:completionThreshold="1" />
+            </LinearLayout>
+
+            <!-- COMENTARIOS -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbComentarios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_comentarios" />
+
+                <EditText
+                    android:id="@+id/txtComentarios"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="bottom"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>

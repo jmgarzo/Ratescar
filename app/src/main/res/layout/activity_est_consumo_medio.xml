@@ -1,0 +1,194 @@
+<!--<?xml version="1.0" encoding="utf-8"?>-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <!--<ScrollView-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent"-->
+    <!-->-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:orientation="vertical">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/lbFechaInicioConsumo"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/lb_fecha_inicio_consumo" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/txtFechaInicioConsumo"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/lbFechaFinConsumo"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/lb_fecha_fin_consumo" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/txtFechaFinConsumo"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/lbCocheConsumo1"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/lb_seleccionar_coche_consumo1" />-->
+
+    <!--&lt;!&ndash; COCHES &ndash;&gt;-->
+
+    <!--<Spinner-->
+    <!--android:id="@+id/cmbCocheConsumo1"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_weight="1"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/lbCocheConsumo2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/lb_seleccionar_coche_consumo2" />-->
+
+    <!--&lt;!&ndash; COCHES &ndash;&gt;-->
+
+    <!--<Spinner-->
+    <!--android:id="@+id/cmbCocheConsumo2"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<Button-->
+    <!--android:id="@+id/btnActualizarGrafico"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/btn_actualizar_grafico" />-->
+    <!--</LinearLayout>-->
+
+
+    <!--&lt;!&ndash;<com.androidplot.xy.XYPlot&ndash;&gt;-->
+    <!--&lt;!&ndash;android:id="@+id/XYPlotConsumoMedio"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_width="fill_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;android:layout_height="fill_parent"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.title="@string/titulo_grafico_consumo_medio"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.domainLabel="Domain"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.rangeLabel="Range"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.titleWidget.labelPaint.textSize="@dimen/title_font_size"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.domainLabelWidget.labelPaint.textSize="@dimen/domain_label_font_size"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.rangeLabelWidget.labelPaint.textSize="@dimen/range_label_font_size"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.graphWidget.marginTop="20dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.graphWidget.marginLeft="15dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.graphWidget.marginBottom="25dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.graphWidget.marginRight="10dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.graphWidget.rangeLabelPaint.textSize="@dimen/range_tick_label_font_size"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.graphWidget.rangeOriginLabelPaint.textSize="@dimen/range_tick_label_font_size"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.graphWidget.domainLabelPaint.textSize="@dimen/domain_tick_label_font_size"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.graphWidget.domainOriginLabelPaint.textSize="@dimen/domain_tick_label_font_size"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.legendWidget.textPaint.textSize="@dimen/legend_text_font_size"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.legendWidget.iconSizeMetrics.heightMetric.value="15dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.legendWidget.iconSizeMetrics.widthMetric.value="15dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.legendWidget.heightMetric.value="25dp"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.legendWidget.positionMetrics.anchor="right_bottom"&ndash;&gt;-->
+    <!--&lt;!&ndash;androidPlot.graphWidget.gridLinePaint.color="#000000"/>&ndash;&gt;-->
+    <!--<LinearLayout-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="vertical">-->
+    <!--<com.androidplot.xy.XYPlot-->
+    <!--android:id="@+id/XYPlotConsumoMedio2"-->
+    <!--androidPlot.domainLabel="@string/titulo_grafico_consumo_medio_domain"-->
+    <!--androidPlot.domainLabelWidget.labelPaint.textSize="@dimen/domain_label_font_size"-->
+    <!--androidPlot.graphWidget.domainLabelPaint.textSize="@dimen/domain_tick_label_font_size"-->
+    <!--androidPlot.graphWidget.domainOriginLabelPaint.textSize="@dimen/domain_tick_label_font_size"-->
+    <!--androidPlot.graphWidget.gridLinePaint.color="#000000"-->
+    <!--androidPlot.graphWidget.marginBottom="25dp"-->
+    <!--androidPlot.graphWidget.marginLeft="20dp"-->
+    <!--androidPlot.graphWidget.marginRight="25dp"-->
+    <!--androidPlot.graphWidget.marginTop="20dp"-->
+    <!--androidPlot.graphWidget.rangeLabelPaint.textSize="@dimen/range_tick_label_font_size"-->
+    <!--androidPlot.graphWidget.rangeOriginLabelPaint.textSize="@dimen/range_tick_label_font_size"-->
+    <!--androidPlot.legendWidget.heightMetric.value="25dp"-->
+    <!--androidPlot.legendWidget.iconSizeMetrics.heightMetric.value="15dp"-->
+    <!--androidPlot.legendWidget.iconSizeMetrics.widthMetric.value="15dp"-->
+    <!--androidPlot.legendWidget.positionMetrics.anchor="right_bottom"-->
+    <!--androidPlot.legendWidget.textPaint.textSize="@dimen/legend_text_font_size"-->
+    <!--androidPlot.rangeLabel="@string/titulo_grafico_consumo_medio_range"-->
+    <!--androidPlot.rangeLabelWidget.labelPaint.textSize="@dimen/range_label_font_size"-->
+    <!--androidPlot.title="@string/titulo_grafico_consumo_medio"-->
+    <!--androidPlot.titleWidget.labelPaint.textSize="@dimen/title_font_size"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="fill_parent" />-->
+    <!--</LinearLayout>-->
+
+    <!--<LinearLayout-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:orientation="horizontal">-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/lbFechaInicioConsumo2"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:text="@string/lb_fecha_inicio_consumo" />-->
+
+    <!--<EditText-->
+    <!--android:id="@+id/txtFechaInicioConsumo2"-->
+    <!--android:layout_width="fill_parent"-->
+    <!--android:layout_height="wrap_content" />-->
+    <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+
+    <!--</ScrollView>-->
+
+</LinearLayout>
+

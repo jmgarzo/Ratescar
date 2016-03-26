@@ -1,0 +1,476 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!--
+                 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lbSeleccionarCoche"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_seleccionar_coche" />
+
+                <Spinner
+                    android:id="@+id/CmbCoches"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            -->
+
+
+            <!--
+                 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lbIdCoche"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_id_coche" />
+
+                <EditText
+                    android:id="@+id/txtIdCoche"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </LinearLayout>
+            -->
+
+
+            <!-- FOTO COCHE TEMPORALMENTE ELIMINADO
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_fotografia_coche"
+                    android:textStyle="bold"
+                    android:layout_weight="1"
+                    android:paddingTop="10sp" />
+
+                <FrameLayout
+                    android:id="@+id/frameLayoutFoto"
+                    android:layout_width="0sp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_weight="2"
+                    android:paddingRight="5sp"
+                    android:paddingTop="10sp">
+
+                    <ImageView
+                        android:layout_width="205sp"
+                        android:layout_height="205sp"
+                        android:background="@android:color/black" />
+
+                    <ImageView
+                        android:id="@+id/imgFotoCoche"
+                        android:layout_width="200sp"
+                        android:layout_height="200sp" />
+                </FrameLayout>
+            </LinearLayout>
+            -->
+
+            <!-- ************** Instrucciones **************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/renault21_text_color"
+                    android:orientation="horizontal" />
+
+                <TextView
+                    android:id="@+id/lbInstrucciones"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_instrucciones_frmcoche"
+                    android:textStyle="bold" />
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/renault21_text_color"
+                    android:orientation="horizontal" />
+
+
+            </LinearLayout>
+
+            <!-- ************** MATRICULA **************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbMatricula"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_matricula"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtMatricula"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textCapCharacters"
+                    android:maxLength="13" />
+            </LinearLayout>
+            <!-- ************** NOMBRE DE COCHE **************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbNombreCoche"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_nombre_coche" />
+
+                <EditText
+                    android:id="@+id/txtNombreCoche"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:capitalize="sentences"
+                    android:inputType="text"
+                    android:maxLength="20"
+
+                    />
+            </LinearLayout>
+
+            <!-- ************** MARCA DE COCHE **************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbMarcaCoche"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_marca_coche"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/CmbMarcas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <!--
+                     <EditText
+                    android:id="@+id/txtMarcaCoche"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+                -->
+            </LinearLayout>
+            <!-- ************** MODELO DE COCHE **************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbModeloCoche"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_modelo_coche" />
+
+                <EditText
+                    android:id="@+id/txtModeloCoche"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:maxLength="20" />
+            </LinearLayout>
+
+
+            <!-- ************** VERSION DE COCHE **************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbVersionCoche"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_version_coche" />
+
+                <EditText
+                    android:id="@+id/txtVersionCoche"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text"
+                    android:maxLength="20" />
+            </LinearLayout>
+
+
+            <!-- ************** TIPO DE COMBUSTIBLE **************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbTipoCombustible"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_tipo_combustible"
+                    android:textStyle="bold" />
+
+                <Spinner
+                    android:id="@+id/cmbCombustibles"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <!--
+                     <EditText
+                    android:id="@+id/txtTipoCombustible"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+                -->
+            </LinearLayout>
+
+            <!-- ************** CC Centímetros Cúbicos **************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbCc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_cc" />
+
+                <EditText
+                    android:id="@+id/txtCc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:maxLength="6"
+                    android:minWidth="50sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unidad_volumen_cc" />
+            </LinearLayout>
+
+            <!-- ************** TAMAÑO DEL DEPOSITO **************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbTamanoDeposito"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_tamano_deposito" />
+
+                <EditText
+                    android:id="@+id/txtTamanoDeposito"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="4"
+                    android:minWidth="50sp" />
+
+                <TextView
+                    android:id="@+id/lbUnidadTamanoDeposito"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+            <!-- ************** KM INICIALES **************** -->
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/lbKmIniciales"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/lb_km_iniciales" />-->
+
+            <!--<EditText-->
+            <!--android:id="@+id/txtKmIniciales"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:maxLength="6"-->
+            <!--android:inputType="number" />-->
+            <!--</LinearLayout>-->
+
+            <!-- ************** KM ACTUALES **************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbKmActuales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:id="@+id/txtKmActuales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:maxLength="6"
+                    android:minWidth="100dp" />
+
+                <TextView
+                    android:id="@+id/lbUnidadDistanciaKmActuales"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+            <!--Fecha de compra-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbFechaCompra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_fecha_compra" />
+
+                <EditText
+                    android:id="@+id/txtFechaCompra"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="date" />
+            </LinearLayout>
+
+            <!--Fecha de Matriculacion-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbFechaMatriculacion"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_fecha_matriculacion" />
+
+                <EditText
+                    android:id="@+id/txtFechaMatriculacion"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="date" />
+            </LinearLayout>
+
+            <!--Fecha de Fabricacion-->
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<TextView-->
+            <!--android:id="@+id/lbFechaFabricacion"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/lb_fecha_fabricacion" />-->
+
+            <!--<EditText-->
+            <!--android:id="@+id/txtFechaFabricacion"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:inputType="date" />-->
+            <!--</LinearLayout>-->
+
+            <!-- ************** COMENTARIOS **************** -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbComentarios"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_comentarios" />
+
+                <EditText
+                    android:id="@+id/txtComentarios"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="text" />
+            </LinearLayout>
+
+            <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<Button-->
+            <!--android:id="@+id/btnAnadirFoto"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="@string/lb_anadir_fotografia_coche" />-->
+
+
+            <!--</LinearLayout>-->
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"></LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="bottom"
+        android:orientation="vertical"></LinearLayout>
+
+
+</LinearLayout>
+<!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/layout/activity_frm_coche.xml -->

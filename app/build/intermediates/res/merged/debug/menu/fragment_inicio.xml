@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_new_repostaje"
+        android:icon="@drawable/ic_senal_gasolinera2"
+        android:orderInCategory="11"
+        android:title="@string/action_nuevo_repostaje"
+        android:showAsAction="ifRoom"
+        />
+
+    <item
+        android:id="@+id/action_new_mantenimiento"
+        android:icon="@drawable/ic_senal_taller2"
+        android:orderInCategory="12"
+        android:title="@string/action_nuevo_mantenimiento"
+        android:showAsAction="ifRoom" />
+
+    <!--<item-->
+    <!--android:id="@+id/action_ajustes"-->
+    <!--android:title="@string/action_settings"-->
+    <!--android:showAsAction="never"/>-->
+
+</menu><!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/menu/fragment_inicio.xml -->

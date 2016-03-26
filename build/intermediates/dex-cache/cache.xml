@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/classes-b94e568a360f3f656af1e3999c034ff54663ea2e.jar" />
+    </item>
+    <item
+        jar="/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/classes-e21c709337d37d65d99d45d87323e62a94beb36d.jar" />
+    </item>
+    <item
+        jar="/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/jars/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.2-ad64fb90a7d1805a50ec924658dd8cd163b6af9b.jar" />
+    </item>
+    <item
+        jar="/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/libs/androidplot-core-0.6.1.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="3db0daea52375b26bfa61c59b8df93950bdefbbc">
+        <dex dex="/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/androidplot-core-0.6.1-38d5d630c4fbb6c359b6ea1e01527957aa549d14.jar" />
+    </item>
+    <item
+        jar="/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/libs/dropbox-sync-sdk-android.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="45fb26781bc311772660c697996801f8f39d3ce0">
+        <dex dex="/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/dropbox-sync-sdk-android-e27347ac5183dc38a91d8b96f2c8e0c8afdff095.jar" />
+    </item>
+    <item
+        jar="/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/RatesCar/aFileDialog/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="5d56b865e4300067e84cf87d3e7b59c9cba7c533">
+        <dex dex="/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/classes-2e67458ab57f4e061a6fd16e5c6e7208badee6ae.jar" />
+    </item>
+    <item
+        jar="/home/jmgarzo/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/home/jmgarzo/Android/branches/Desarrollo/RatesCar/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.2-d0cdc5c7b1aef33ca4e0d6353027c573b79154ee.jar" />
+    </item>
+
+</items>

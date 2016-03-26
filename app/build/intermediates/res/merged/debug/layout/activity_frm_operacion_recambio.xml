@@ -1,0 +1,218 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!-- NOMBRE RECAMBIO -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lbNombreOperacionRecambio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_nombre_recambio"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txtNombreOperacionRecambio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"/>
+            </LinearLayout>
+            <!-- FABRICANTE RECAMBIO -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lbFabricanteOperacionRecambio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_marca_recambio"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txtFabricanteOperacionRecambio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"/>
+            </LinearLayout>
+
+
+            <!-- REFERENCIA RECAMBIO -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lbReferenciaOperacionRecambio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_referencia_recambio"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txtReferenciaOperacionRecambio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"/>
+            </LinearLayout>
+
+
+            <!-- DESCRIPCION RECAMBIO -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lbDescripcionOperacionRecambio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_caracteristicas_recambio"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txtDescripcionDetalleOperacionRecambio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"/>
+            </LinearLayout>
+
+            <!-- COMENTARIOS RECAMBIO -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/lbComentariosOperacionRecambio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_comentarios_recambio"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:id="@+id/txtComentariosOperacionRecambio"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="10sp"/>
+            </LinearLayout>
+
+
+
+
+            <!--CANTIDAD RECAMBIO -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="left|center">
+
+                <TextView
+                    android:id="@+id/lbCantidadOperacionRecambio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_cantidad_operacion_recambio"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/txtCantidadOperacionRecambio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textStyle="normal"
+                    android:numeric="integer"
+                    android:inputType="number"
+                    android:minWidth="20sp"/>
+            </LinearLayout>
+
+
+            <!-- PRECIO DE RECAMBIO -->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbPrecioOperacionRecambio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_precio_operacion_recambio" />
+
+                <EditText
+                    android:id="@+id/txtPrecioOperacionRecambio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLength="7"
+                    android:inputType="numberDecimal"/>
+                <TextView
+                    android:id="@+id/lbUnidadMonedaOperacionRecambio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unidad_moneda" />
+
+            </LinearLayout>
+
+
+
+
+            <!--COSTE OPERACION -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/lbCosteOperacionRecambio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lb_coste_operacion_recambio" />
+
+                <EditText
+                    android:id="@+id/txtCosteOperacionRecambio"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:inputType="numberDecimal"
+                    android:numeric="decimal"
+                    android:minWidth="25sp" />
+
+                <TextView
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/unidad_moneda" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:gravity="bottom"
+        android:orientation="vertical"></LinearLayout>
+
+</LinearLayout>
+
+<!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/layout/activity_frm_operacion_recambio.xml -->

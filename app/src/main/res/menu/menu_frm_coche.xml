@@ -1,0 +1,42 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.jmgarzo.ratescar.FrmCoche">
+    <item
+        android:id="@+id/action_save"
+        android:icon="@drawable/ic_action_save"
+        android:orderInCategory="10"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_save" />
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_action_delete"
+        android:orderInCategory="11"
+        android:showAsAction="ifRoom"
+        android:title="@string/action_delete" />
+
+    <!--<item-->
+    <!--android:id="@+id/action_adjuntar"-->
+    <!--android:icon="@drawable/ic_action_attach"-->
+    <!--android:orderInCategory="12"-->
+    <!--android:showAsAction="ifRoom"-->
+    <!--android:title="@string/action_adjuntar" />-->
+
+    <!--<item-->
+    <!--android:id="@+id/action_adjuntar"-->
+    <!--android:title="@string/action_adjuntar"-->
+    <!--android:icon="@drawable/ic_action_attach"-->
+    <!--android:showAsAction="ifRoom"-->
+    <!--android:orderInCategory="12">-->
+    <!--&lt;!&ndash; "file" submenu &ndash;&gt;-->
+    <!--<menu>-->
+    <!--<item-->
+    <!--android:id="@+id/action_camara"-->
+    <!--android:title="@string/lb_menu_camara"-->
+    <!--android:icon="@drawable/ic_action_photo" />-->
+    <!--<item-->
+    <!--android:id="@+id/action_galeria"-->
+    <!--android:title="@string/lb_menu_galeria"-->
+    <!--android:icon="@drawable/ic_action_new_picture" />-->
+    <!--</menu>-->
+    <!--</item>-->
+</menu>

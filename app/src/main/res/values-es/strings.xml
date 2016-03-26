@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Gastos del Coche</string>
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Cerrar</string>
+    <string name="title_activity_fragment_inicio">Inicio</string>
+    <string name="title_activity_fragment_coches">Coches</string>
+    <string name="title_activity_fragment_repostajes">Repostajes</string>
+    <string name="title_activity_fragment_mantenimientos">Mantenimientos</string>
+    <string name="title_activity_fragment_recambios">Recambios</string>
+    <string name="title_activity_frm_nuevo_coche">Nuevo Coche</string>
+    <string name="title_activity_fragment_itvs">ITV</string>
+    <string name="title_activity_fragment_peajes">Peajes</string>
+    <string name="title_activity_fragment_seguros">Seguros</string>
+    <string name="title_activity_fragment_ajustes">Ajustes</string>
+    <string name="title_activity_fragment_impuesto_circulacion">Impuesto Circulación</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_new">Nuevo</string>
+    <string name="action_nuevo_repostaje">Nuevo Repostaje</string>
+    <string name="action_nuevo_mantenimiento">Nuevo Mantenimiento</string>
+    <string name="action_done">OK</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_adjuntar">Adjuntar</string>
+    <string name="title_activity_frm_detalle">Detalle Coche</string>
+    <string name="lb_matricula">(*)Matrícula: </string>
+    <string name="lb_nombre_coche">Nombre: </string>
+    <string name="lb_marca_coche">(*)Marca: </string>
+    <string name="lb_modelo_coche">Modelo: </string>
+    <string name="lb_version_coche">Versión: </string>
+    <string name="lb_tipo_combustible">(*)Tipo Combustible: </string>
+    <string name="lb_tamano_deposito">Tamaño del deposito: </string>
+    <string name="lb_km_iniciales">Kilometros iniciales: </string>
+    <string name="lb_km_actuales">Kilometros actuales: </string>
+    <string name="lb_km_actuales_km">Kilometros actuales: </string>
+    <string name="lb_km_actuales_millas">Millas actuales: </string>
+
+    <string name="lb_comentarios">Comentarios: </string>
+    <string name="lb_anadir_fotografia_coche">Añadir fotografía </string>
+    <string name="lb_fecha_compra">Fecha de compra: </string>
+    <string name="lb_fecha_matriculacion">Fecha de matriculación: </string>
+    <string name="lb_fecha_fabricacion">Fecha de fabricación: </string>
+    <string name="lb_cc">Cilindrada: </string>
+    <string name="title_activity_frm_repostaje">Repostaje: </string>
+    <string name="lb_seleccionar_coche">(*)Seleccionar coche: </string>
+    <string name="lb_fecha_repostaje">(*)Fecha Respostaje: </string>
+    <string name="lb_km_repostaje">(*)Kilómetros Repostaje: </string>
+
+    <string name="lb_millas_repostaje">(*)Millas Repostaje: </string>
+
+    <string name="lb_precio">(*)Precio por litro: </string>
+    <string name="lb_precio_por_litro">(*)Precio por litro: </string>
+    <string name="lb_precio_por_galon_us">(*)Precio por Galon(US): </string>
+    <string name="lb_precio_por_galon_uk">(*)Precio por Galon Imperial: </string>
+
+    <string name="lb_costo">(*)Coste del repostaje: </string>
+    <string name="lb_cantidad">(*)Litros: </string>
+    <string name="lb_cantidad_litros">(*)Litros:</string>
+    <string name="lb_cantidad_galones_us">Galones (US): </string>
+    <string name="lb_cantidad_galones_uk">Galones Imperiales: </string>
+
+    <string name="lb_tipo_repostaje">(*)Tipo Respostaje: </string>
+    <string name="rb_completo">Completo</string>
+    <string name="rb_parcial">Parcial</string>
+    <string name="chk_aa">Aire Aconcionado</string>
+    <string name="chk_remolque">Remolque</string>
+    <string name="chk_baca">Baca</string>
+    <string name="lb_tipo_conduccion">Tipo de conducción</string>
+    <string name="rb_normal">Normal</string>
+    <string name="rb_economica">Económica</string>
+    <string name="rb_deportiva">Deportiva</string>
+    <string name="lb_tipo_carretera">Tipo de Carretera</string>
+    <string name="lb_tipo_pago">Tipo de pago</string>
+    <string name="lb_velocidad_media">Velocidad Media</string>
+    <string name="lb_estacion_servicio">Estación de Servicio</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lb_nombre_recambio">Nombre</string>
+    <string name="lb_marca_recambio">Marca</string>
+    <string name="lb_referencia_recambio">Referencia</string>
+    <string name="lb_caracteristicas_recambio">Características</string>
+    <string name="lb_comentarios_recambio">Comentarios</string>
+    <string name="title_activity_frm_recambio">Recambio</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="no_errores">No hay errores</string>
+    <string name="titulo_alerta_errores">Ups! Falta algo</string>
+    <string name="error_km_recorridos">Los kilómetros de repostaje deben ser mayores que el último repostaje</string>
+    <string name="error_precio_litro">Se debe introducir un precio por litro</string>
+    <string name="error_coste_repostaje">Se debe introducir un coste de repostaje</string>
+    <string name="error_litros">Se debe instroducir un número de litros para el repostaje</string>
+    <string name="error_es_completo">Se debe intruducir un valor para Tipo de Repostaje</string>
+    <string name="error_fecha_repostaje">Se debe introducir una fecha de repostaje</string>
+    <string name="error_km_repostaje">Se debe introducir un valor para los kilómetros de repostaje</string>
+    <string name="title_activity_frm_mantenimiento">Mantenimiento</string>
+    <string name="lb_coche_mantenimiento">(*)Coche: </string>
+    <string name="lb_tipo_mantenimiento">Descripción: </string>
+    <string name="lb_nombre_mantenimiento">Nombre: </string>
+    <string name="lb_fecha_mantenimiento">(*)Fecha: </string>
+    <string name="lb_km_mantenimiento">(*)Kilómetros: </string>
+    <string name="lb_coste_iva"> Coste con IVA</string>
+    <string name="lb_coste_sin_iva">Coste sin IVA</string>
+    <string name="lb_tanto_cien_iva">%IVA</string>
+    <string name="lb_descuento_total">Descuento total</string>
+    <string name="lb_coste_final">Coste</string>
+    <string name="lb_comentarios_mantenimiento">Comentarios</string>
+    <string name="error_coche_mantenimiento">Se debe seleccionar un coche para el mantenimiento </string>
+    <string name="error_fecha_mantenimiento">Se debe introducir una fecha de mantenimiento</string>
+    <string name="error_km_mantenimiento">Se deben introducir unos km para el mantenimiento</string>
+    <string name="delete">Eliminar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="dialogo_delete_repostaje"> ¿Desea eliminar el repostaje actual? </string>
+    <string name="dialogo_delete_coche"> ¿Desea eliminar el coche actual? Se eliminarán todos los datos datos de ese coche (Repostajes, Mantenimientos, ...)</string>
+    <string name="dialogo_delete_recambio"> ¿Desea eliminar el recambio actual? </string>
+    <string name="dialogo_delete_itv"> ¿Desea eliminar la ITV actual? </string>
+    <string name="dialogo_delete_peaje"> ¿Desea eliminar el Peaje actual? </string>
+    <string name="dialogo_delete_seguro"> ¿Desea eliminar el Seguro actual? </string>
+    <string name="dialogo_delete_impuesto_circulacion"> ¿Desea eliminar el impuesto actual? </string>
+    <string name="dialogo_delete_mantenimiento"> ¿Desea eliminar el mantenimiento actual? </string>
+    <string name="dialogo_salir_sin_guardar"> ¿Desea salir sin guardar los cambios?</string>
+    <string name="dialogo_salir_sin_guardar_operaciones_seleccionadas"> ¿Desea salir sin guardar las operaciones seleccionadas?</string>
+    <string name="dialogo_delete_operacion">¿Desea eliminar la operación actual? Se eliminará de todos los mantenimientos.</string>
+    <string name="dialogo_delete_operacion_recambio">¿Desea eliminar la operación de mantenimiento actual?</string>
+    <string name="opcion_inicio">Inicio</string>
+    <string name="opcion_coches">Coches</string>
+    <string name="opcion_repostajes">Repostajes</string>
+    <string name="opcion_mantenimientos">Mantenimientos</string>
+    <string name="opcion_recambios">Recambios</string>
+    <string name="opcion_itv">ITV</string>
+    <string name="opcion_peajes">Peajes</string>
+    <string name="opcion_seguros">Seguros</string>
+    <string name="opcion_estadisticas">Estadísticas</string>
+    <string name="opcion_impuesto_circulacion">Impuesto Circulación </string>
+    <string name="opcion_ajustes">Ajustes</string>
+    <string name="title_activity_frm_itv">Itv</string>
+    <string name="lb_fecha_itv">(*)Fecha: </string>
+    <string name="lb_precio_itv">Precio ITV :</string>
+    <string name="lb_estacion_itv">Nombre Estacion ITV: </string>
+    <string name="lb_resultado_itv">Resultado: </string>
+    <string name="lb_observaciones_itv">Observaciones:</string>
+    <string name="lb_km_itv">Kilómetros: </string>
+    <string name="unidad_moneda">€</string>
+    <string name="unidad_consumo">l/100</string>
+    <string name="unidad_consumo_litros">l/100</string>
+    <string name="unidad_consumo_galones_imperiales">MPG Imp</string>
+    <string name="unidad_consumo_galones_US">MPG US</string>
+    <string name="unidad_distancia">km</string>
+    <string name="unidad_distancia_km">km</string>
+    <string name="unidad_distancia_millas">mi</string>
+    <string name="unidad_volumen_litros">litros</string>
+    <string name="unidad_volumen_galones_UK">Galones Imp</string>
+    <string name="unidad_volumen_galones_US">Galones US</string>
+
+    <string name="tipo_repostaje_parcial">Parcial</string>
+    <string name="title_activity_frm_peaje">Peaje</string>
+    <string name="lb_fecha_peaje">(*)Fecha: </string>
+    <string name="lb_nombre_peaje">Nombre: </string>
+    <string name="lb_precio_peaje">Importe: </string>
+    <string name="lb_carretera_peaje">Vía: </string>
+    <string name="lb_direccion_peaje">Dirección: </string>
+    <string name="lb_ubicacion_peaje">Ubicación: </string>
+    <string name="lb_comentarios_peaje">Comentarios: </string>
+    <string name="lb_separador_fecha"> -> </string>
+    <string name="title_activity_frm_seguro">Seguro</string>
+    <string name="lb_compania_seguro">Compañia: </string>
+    <string name="lb_prima_seguro">Prima: </string>
+    <string name="lb_tipo_seguro">Modalidad Seguro: </string>
+    <string name="lb_poliza_seguro">Nº de Póliza: </string>
+    <string name="lb_fecha_inicio_seguro">(*)Fecha de Inicio: </string>
+    <string name="lb_fecha_vencimiento_seguro">(*)Fecha de Vencimiento: </string>
+    <string name="lb_periodicidad_seguro">Periodicidad de renovación: </string>
+    <string name="lb_observaciones_seguro">Observaciones: </string>
+    <string name="daidalos_app_name">aFileDialog</string>
+    <string name="title_activity_frm_importar_exportar">Importar/Exportar</string>
+    <string name="titulo_ajuste_importar_exportar"> Importar/Exportar Datos</string>
+    <string name="subtitulo_ajuste_importar_exportar">Guardar un backup o cargar los datos guardados</string>
+    <string name="lb_almacenamiento_interno"> Almacenamiento interno </string>
+    <string name="btn_exportar">Exportar</string>
+    <string name="btn_importar">Importar</string>
+    <string name="lb_Dropbox">Dropbox</string>
+    <string name="chk_activar_dropbox">Activar Dropbox</string>
+    <string name="mensaje_exportando">Exportando a Dropbox...</string>
+    <string name="mensaje_exportado_dropbox_completado">¡Exportación a Dropbox completada!</string>
+    <string name="mensaje_exportando_dropbox_cancelado">¡Exportación a Dropbox cancelada!</string>
+    <string name="dialogo_importar_bbdd"> ¿Desea importar una nueva base de datos? Esto eliminará los datos actuales</string>
+    <string name="importar">Importar</string>
+    <string name="toast_fichero_seleccionado">Fichero seleccionado: </string>
+    <string name="toast_fichero_creado">Fichero creado: </string>
+    <string name="title_activity_fragment_estadisticas">Estadísticas</string>
+    <string name="titulo_estadisticas_consumo_medio">Consumo Medio</string>
+    <string name="subtitulo_estadisticas_consumo_medio">Estudia y compara el consumo de tus coches</string>
+    <string name="title_activity_est_consumo_medio">Estadísticas Consumo Medio</string>
+    <string name="lb_fecha_inicio_consumo">Desde:</string>
+    <string name="lb_fecha_fin_consumo">Hasta:</string>
+    <string name="lb_seleccionar_coche_consumo1">Coche 1:</string>
+    <string name="lb_seleccionar_coche_consumo2">Coche 2:</string>
+    <string name="btn_actualizar_grafico">Actualizar Gráfico</string>
+    <string name="titulo_grafico_consumo_medio">Consumo medio</string>
+    <string name="titulo_grafico_consumo_medio_domain">Fecha</string>
+    <string name="titulo_grafico_consumo_medio_range">Consumo medio</string>
+    <string name="title_activity_est_consumo_medio2">Consumo Medio</string>
+    <string name="titulo_alerta_inicio_bbdd">No existe Base de Datos</string>
+    <!--<string name="error_no_hay_bbdd">Primero se debe introducir un coche. Puede grabar uno desde el menú Coches o importar una Base de Datos anterior desde el menú de Ajustes</string>-->
+    <string name="error_no_hay_bbdd_repostaje">Para añadir un nuevo Repostaje primero debe dar de alta un Coche, puede hacerlo desde el menú Coches o importar una Base de Datos anterior desde el menú Ajustes</string>
+    <string name="error_no_hay_bbdd_mantenimiento">Para añadir un nuevo Mantenimiento primero debe dar de alta un Coche, puede hacerlo desde el menú Coches o importar una Base de Datos anterior desde el menú Ajustes</string>
+    <string name="error_no_hay_bbdd_recambio">Para añadir un nuevo Recambio primero debe dar de alta un Coche, puede hacerlo desde el menú Coches o importar una Base de Datos anterior desde el menú Ajustes</string>
+    <string name="error_no_hay_bbdd_itv">Para añadir una nueva ITV primero debe dar de alta un Coche, puede hacerlo desde el menú Coches o importar una Base de Datos anterior desde el menú Ajustes</string>
+    <string name="error_no_hay_bbdd_peaje">Para añadir un nuevo peaje primero debe dar de alta un Coche, puede hacerlo desde el menú Coches o importar una Base de Datos anterior desde el menú Ajustes</string>
+    <string name="error_no_hay_bbdd_seguro">Para añadir un nuevo seguro primero debe dar de alta un Coche, puede hacerlo desde el menú Coches o importar una Base de Datos anterior desde el menú Ajustes</string>
+    <string name="error_no_hay_bbdd_estadisticas">Para visualizar las estadísticas primero debe dar de alta un Coche, puede hacerlo desde el menú Coches o importar una Base de Datos anterior desde el menú Ajustes</string>
+    <string name="error_no_hay_bbdd_impuesto_circulacion">Para añadir un nuevo impuesto primero debe dar de alta un Coche desde el menú Coches o importar una Base de Datos anterior desde el menú Ajustes</string>
+    <string name="inicio_sin_bbdd">Bienvenido! \n Para empezar a sacar partido a esta aplicación solo tiene que añadir un Coche en el menú de Coches o importar una Base de Datos anterior desde el menú de Ajustes.</string>
+    <string name="titulo_error_no_hay_repostajes">Ups!</string>
+    <string name="error_no_hay_repostajes">No hay ningún Coche con al menos, dos repostajes.
+        No hay suficientes datos para construir el gráfico</string>
+    <string name="error_nombre_o_matricula">Se debe introducir o un Nombre de coche o una Matrícula.</string>
+    <string name="titulo_resumen">Coche: </string>
+    <string name="subtitulo_resumen"></string>
+    <string name="media_consumo_resumen"> Consumo medio: </string>
+    <string name="km_recorridos_resumen">km recorridos: </string>
+    <string name="numero_repostajes_resumen">Número de repostajes: </string>
+    <string name="litros_consumidos_resumen">Litros consumidos: </string>
+    <string name="gasto_combustible_resumen">Gasto en combustible: </string>
+    <string name="gasto_mantenimiento_resumen">Gasto en mantenimientos: </string>
+    <string name="gasto_total_resumen">Gasto Total: </string>
+    <string name="precio_km_resumen">Precio por km: </string>
+    <string name="precio_milla_resumen">Precio por milla: </string>
+    <!--string name="unidad_volumen_litros">l</string>-->
+    <string name="unidad_volumen_cc">cc</string>
+    <string name="title_activity_frm_coche">Coche</string>
+    <string name="tipo_seguro_a_terceros"> A Terceros</string>
+    <string name="tipo_seguro_a_terceros_ampliado">A terceros ampliado </string>
+    <string name="tipo_seguro_a_todo_riesgo">A todo riesgo</string>
+    <string name="tipo_seguro_a_todo_riesgo_franquicia">A todo riesgo con franquicia</string>
+    <string name="tipo_seguro_complementario">Complementario</string>
+    <string name="tipo_periodicidad_seguro_dia"> Día/s </string>
+    <string name="tipo_periodicidad_seguro_mes"> Mes/es </string>
+    <string name="tipo_periodicidad_seguro_ano"> Año/s </string>
+    <string name="mensaje_no_hay_conexion">No hay conexión de datos</string>
+    <string name="mensaje_no_hay_conexion_dropbox">No hay conexión con Dropbox</string>
+    <string name="mensaje_no_existe_fichero_en_dropbox">No existe fichero en Dropbox</string>
+    <string name="resultado_itv_favorable">Favorable</string>
+    <string name="resultado_itv_desfavorable">Desfavorable</string>
+    <string name="resultado_itv_negativa">Negativa</string>
+    <string name="error_coche_itv">Se debe seleccionar un coche para la ITV</string>
+    <string name="error_fecha_itv">Se debe selecionar una fecha para la ITV</string>
+    <string name="error_coche_peaje">Se debe seleccionar un coche para el Peaje</string>
+    <string name="error_fecha_peaje">Se debe seleccionar una fecha para el peaje</string>
+    <string name="error_coche_seguro">Se debe seleccionar un coche para el Seguro</string>
+    <string name="error_fecha_inicio_seguro">Se debe seleccionar una fecha de inicio para el Seguro</string>
+    <string name="error_fecha_vencimiento_seguro">Se debe seleccionar una fecha de vencimiento para el Seguro</string>
+    <string name="title_activity_frm_impuesto_circulacion">Impuesto Circulación</string>
+    <string name="lb_importe_impuesto_circulacion">Importe: </string>
+    <string name="lb_anualidad_impuesto_circulacion">Anualidad: </string>
+    <string name="lb_fecha_fin_pago_impuesto_circulacion">Fecha fin de Pago: </string>
+    <string name="lb_comentarios_impuesto_circulacion">Comentarios </string>
+    <string name="error_coche_impuesto">Se debe seleccionar un coche para grabar un nuevo Impuesto de circulación </string>
+    <string name="lb_menu_camara_context_menu">Sacar fotografía </string>
+    <string name="lb_menu_galeria_context_menu">Seleccionar foto de Galería </string>
+    <string name="lb_fotografia_coche">Icono: </string>
+    <string name="titulo_menu_sacar_foto">Sacar fotografía </string>
+    <string name="titulo_menu_seleccionar_de_galeria">Selecionar de fotografía de Galería</string>
+    <string name="aceptar">Aceptar </string>
+    <string name="title_activity_operaciones_mantenimiento">Seleccionar Operaciones </string>
+    <string name="lb_seleccionar_tipo_mantenimiento">*Tipo Mantenimiento: </string>
+    <string name="title_activity_frm_operacion">Operación de Mantenimiento</string>
+    <string name="lb_nombre_operacion">(*)Operación: </string>
+    <string name="lb_descripcion_operacion">Descripción: </string>
+    <string name="lb_comentarios_operacion">Comentarios: </string>
+    <string name="lb_periodicidad_operacion">Periodicidad: </string>
+    <string name="lb_coste_operacion">Coste: </string>
+    <string name="tipo_periodicidad_operacion_km"> km </string>
+    <string name="tipo_periodicidad_operacion_millas"> millas </string>
+    <string name="tipo_periodicidad_operacion_meses"> mes/meses </string>
+    <string name="tipo_periodicidad_operacion_ano"> año/años </string>
+    <string name="btn_anadir_operacion">Añadir operaciones de manteniminento</string>
+    <string name="title_activity_lst_operaciones_mantenimiento">Operaciones de Manteniminento</string>
+    <string name="error_nombre_operacion">Debe introducir un nombre de operación </string>
+    <string name="title_activity_frm_mantenimiento_operacion">Detalle Operacion</string>
+    <string name="lb_nombre_mantenimiento_operacion">Operación: </string>
+    <string name="btn_operaciones_mantenimiento">Operaciones mantenimiento</string>
+    <string name="txt_no_hay_operaciones">No hay operaciones nuevas disponibles. \nSi lo necesita, puede crear nuevas operaciones </string>
+    <string name="lb_seleccionar_operaciones">Seleccione las operaciones que quiere añadir al mantenimiento actual </string>
+    <string name="btn_recambios"> Recambios </string>
+    <string name="title_activity_lst_operaciones_recambios">Lista de Operaciones</string>
+    <string name="title_activity_frm_operacion_recambio">Recambio</string>
+    <string name="lb_cantidad_operacion_recambio">Cantidad: </string>
+    <string name="lb_precio_operacion_recambio">Precio: </string>
+    <string name="lb_coste_operacion_recambio">Coste: </string>
+    <string name="title_activity_lst_recambios">Recambios</string>
+    <string name="lb_seleccionar_recambios">Seleccione los recambios que quiere añadir a la operación actual </string>
+    <string name="lb_no_hay_operaciones">No hay recambios nuevos disponibles. \nSi lo necesita, puede crear nuevos recambios </string>
+    <string name="lb_categoria_recambio">Categoria: </string>
+    <string name="lb_subcategoria_recambio">Subcategoria: </string>
+    <string name="lb_fabricante_recambio">Fabricante: </string>
+    <string name="lb_descripcion_recambio">Descripción: </string>
+    <string name="lb_instrucciones_frmcoche">Solo es obligatorio rellenar los campos marcados con asterisco (*)</string>
+    <string name="titulo_ajuste_unidades">Unidades</string>
+
+
+
+
+
+    <!--ETIQUETAS DE TEXTO DE CATEGORIAS Y SUBCATEGORIAS-->
+    <!--CATEGORIAS-->
+
+    <string name="cat_nombre_frenos">Frenos </string>
+    <string name="cat_descripcion_frenos">Pinzas de freno, discos de freno, hidráulica, captores...</string>
+    <string name="cat_nombre_direccion">Dirección,suspensión, tren </string>
+    <string name="cat_descripcion_direccion">Amortiguadores, Cojinetes,Muelles y fuelles.. </string>
+    <string name="cat_nombre_escape">Escape</string>
+    <string name="cat_descripcion_escape">Silenciadores, tubos, catalizadores...</string>
+    <string name="cat_nombre_embrague">Embrague/Caja de Cambios</string>
+    <string name="cat_descripcion_embrague">Embragues, volante motor..</string>
+    <string name="cat_nombre_partes_motor">Partes del motor</string>
+    <string name="cat_descripcion_partes_motor">Correas,bomba,culata..</string>
+    <string name="cat_nombre_filtracion">Filtración</string>
+    <string name="cat_descripcion_filtracion">Filtros combustible,aire,aceite..</string>
+    <string name="cat_nombre_sistema_arranque">Sistema arraque y Carga</string>
+    <string name="cat_descripcion_sistema_arranque">Baterías, alternadores, motores de arranque...</string>
+    <string name="cat_nombre_piezas_termicas">Piezas térmicas y Climatización</string>
+    <string name="cat_descripcion_piezas_termicas">Climatización, calefacción, venlización, sondas...</string>
+    <string name="cat_nombre_visibilidad">Visibilidad </string>
+    <string name="cat_descripcion_visibilidad">Limpiaparabrisas, faros, bombillas, retrovisores</string>
+    <string name="cat_nombre_piezas_habitaculo">Piezas habitáculo</string>
+    <string name="cat_descripcion_piezas_habitaculo">Elevalunas, muelles, cierres, electricidad...</string>
+    <string name="cat_nombre_accesorios_mantenimiento">Accesorios y Mantenimiento</string>
+    <string name="cat_descripcion_accesorios_mantenimiento">Productos de mantenimiento, limpieza, cadenas </string>
+    <string name="cat_nombre_herramientas">Herramientas</string>
+    <string name="cat_descripcion_herramientas">Bujias, calado, carracas, embrague...</string>
+
+
+    <!--ETIQUETAS SUBCATEGORIAS-->
+
+    <!--SUBCATEGORIA FRENOS-->
+    <string name="sub_frenos_nombre_pastillas">Pastillas de freno</string>
+    <string name="sub_frenos_descripcion_pastillas"></string>
+    <string name="sub_frenos_nombre_discos_de_freno">Discos de freno</string>
+    <string name="sub_frenos_descripcion_discos_de_freno"></string>
+    <string name="sub_frenos_nombre_frenos_de_tambor">Frenos de tambor</string>
+    <string name="sub_frenos_descripcion_frenos_de_tambor"></string>
+    <string name="sub_frenos_nombre_hidraulica">Hidráulica</string>
+    <string name="sub_frenos_descripcion_hidraulica"></string>
+    <string name="sub_frenos_nombre_captores_y_cables">Captores y cables de frenado</string>
+    <string name="sub_frenos_descripcion_captores_y_cables"></string>
+    <string name="sub_frenos_nombre_ayuda_al_frenada">Ayuda a la frenada</string>
+    <string name="sub_frenos_descripcion_ayuda_al_frenada">Ayuda a la frenada</string>
+
+
+
+    <!--SUBCATEGORIA DIRECCION-->
+    <string name="sub_direccion_nombre_amortiguadores">Amortiguadores</string>
+    <string name="sub_direccion_descripcion_amortiguadores"></string>
+    <string name="sub_direccion_nombre_cojinetes">Cojinetes</string>
+    <string name="sub_direccion_descripcion_cojinetes"></string>
+    <string name="sub_direccion_nombre_muelles_y_fuelles">Muelles y fuelles</string>
+    <string name="sub_direccion_descripcion_muelles_y_fuelles"></string>
+    <string name="sub_direccion_nombre_cubos_y_rodamientos">Cubos y rodamientos</string>
+    <string name="sub_direccion_descripcion_cubos_y_rodamientos"></string>
+    <string name="sub_direccion_nombre_rotulas_y_suspension">Rótulas de Suspensión</string>
+    <string name="sub_direccion_descripcion_rotulas_y_suspension"></string>
+    <string name="sub_direccion_nombre_suspension_de_ejes">Suspension de ejes</string>
+    <string name="sub_direccion_descripcion_suspension_de_ejes"></string>
+    <string name="sub_direccion_nombre_direccion">Dirección</string>
+    <string name="sub_direccion_descripcion_direccion"></string>
+    <string name="sub_direccion_nombre_rotulas_de_direccion">Rotulas de dirección</string>
+    <string name="sub_direccion_descripcion_rotulas_de_direccion"></string>
+    <string name="sub_direccion_nombre_transmision">Transmisión</string>
+    <string name="sub_direccion_descripcion_transmision"></string>
+    <string name="sub_direccion_nombre_rueda">Rueda</string>
+    <string name="sub_direccion_descripcion_rueda"></string>
+    <string name="sub_direccion_nombre_kit_reparacion_montaje">Kit Reparación y de montaje</string>
+    <string name="sub_direccion_descripcion_kit_reparacion_montaje"></string>
+    <string name="sub_direccion_nombre_otras_piezas_suspension">Otras piezas de suspensión</string>
+    <string name="sub_direccion_descripcion_otras_piezas_suspension"></string>
+    <string name="sub_direccion_nombre_otras_piezas_transmisión">Otras piezas de transmisión</string>
+    <string name="sub_direccion_descripcion_otras_piezas_transmisión"></string>
+
+    <!--SUBCATEGORIA ESCAPE-->
+    <string name="sub_escape_nombre_silenciadores_y_tubos">Silenciadores y tubos</string>
+    <string name="sub_escape_descripcion_silenciadores_y_tubos"></string>
+    <string name="sub_escape_nombre_catalizadores_y_filtros_de_particulas">Catalizadores y filtros de partículas</string>
+    <string name="sub_escape_descripcion_catalizadores_y_filtros_de_particulas"></string>
+    <string name="sub_escape_nombre_captadores_de_escape">Captadores de escape</string>
+    <string name="sub_escape_descripcion_captadores_de_escape">Captadores de escape</string>
+    <string name="sub_escape_nombre_otras_piezas_de_escape">Otras piezas de escape</string>
+    <string name="sub_escape_descripcion_otras_piezas_de_escape"></string>
+    <string name="sub_escape_nombre_accesorios_de_montaje">Accesorios de montaje</string>
+    <string name="sub_escape_descripcion_accesorios_de_montaje"></string>
+
+    <!--SUBCATEGORIA Embrague-->
+    <string name="sub_embrague_nombre_embrague_y_volante_motor">Embrague y volante motor</string>
+    <string name="sub_embrague_descripcion_embrague_y_volante_motor"></string>
+    <string name="sub_embrague_nombre_otras_piezas_embrague">Otras piezas del embrague</string>
+    <string name="sub_embrague_descripcion_otras_piezas_embrague"></string>
+    <string name="sub_embrague_nombre_accesorios_caja_cambios">Accesorios de caja de cambios</string>
+    <string name="sub_embrague_descripcion_accesorios_caja_cambios"></string>
+
+
+    <!--SUBCATEGORIA Partes Motor-->
+    <string name="sub_motor_nombre_correas">Correas</string>
+    <string name="sub_motor_descripcion_correas"></string>
+    <string name="sub_motor_nombre_bomba">Bomba</string>
+    <string name="sub_motor_descripcion_bomba"></string>
+    <string name="sub_motor_nombre_bujias_y_precalentamiento">Bujias y precalentamiento</string>
+    <string name="sub_motor_descripcion_bujias_y_precalentamiento"></string>
+    <string name="sub_motor_nombre_motor_y_culata">Motor y culata</string>
+    <string name="sub_motor_descripcion_motor_y_culata"></string>
+    <string name="sub_motor_nombre_soportes_motor">Soportes motor</string>
+    <string name="sub_motor_descripcion_soportes_motor"></string>
+    <string name="sub_motor_nombre_turbocompresor">Turbocompresor</string>
+    <string name="sub_motor_descripcion_turbocompresor"></string>
+    <string name="sub_motor_nombre_inyeccion_y_carburacion">Inyección y carburación</string>
+    <string name="sub_motor_descripcion_inyeccion_y_carburacion"></string>
+    <string name="sub_motor_nombre_aceite_accesorios_purga">Aceite y accesorios de purga</string>
+    <string name="sub_motor_descripcion_aceite_accesorios_purga"></string>
+    <string name="sub_motor_nombre_lubricacion">Lubricación</string>
+    <string name="sub_motor_descripcion_lubricacion"></string>
+    <string name="sub_motor_nombre_valvulas">Válvulas</string>
+    <string name="sub_motor_descripcion_valvulas"></string>
+    <string name="sub_motor_nombre_captores_y_cables">Captores y cables motor</string>
+    <string name="sub_motor_descripcion_captores_y_cables"></string>
+    <string name="sub_motor_nombre_anticongelante">Anticongelante</string>
+    <string name="sub_motor_descripcion_anticongelante"></string>
+
+    <!--SUBCATEGORIA FILTRACION-->
+
+    <string name="sub_filtracion_nombre_filtro">Filtros</string>
+    <string name="sub_filtracion_descripcion_filtro"></string>
+
+
+    <!--SUBCATEGORIA SISTEMA DE ARRANQUE Y CARGA-->
+
+    <string name="sub_sistema_arranque_nombre_baterias">Baterías</string>
+    <string name="sub_sistema_arranque_descripcion_baterias"></string>
+    <string name="sub_sistema_arranque_nombre_alternadores">Alternadores</string>
+    <string name="sub_sistema_arranque_descripcion_alternadores"></string>
+    <string name="sub_sistema_arranque_nombre_motores_de_arranque">Motores de arranque</string>
+    <string name="sub_sistema_arranque_descripcion_motores_de_arranque"></string>
+
+    <!--SUBCATEGORIA PIEZAS TERMICAS Y CLIMATIZACIÓN-->
+
+
+    <string name="sub_piezas_termicas_nombre_refrigeracion">Refrigeración</string>
+    <string name="sub_piezas_termicas_descripcion_refrigeracion"></string>
+    <string name="sub_piezas_termicas_nombre_climatizacion">Climatización</string>
+    <string name="sub_piezas_termicas_descripcion_climatizacion"></string>
+    <string name="sub_piezas_termicas_nombre_calefacción_y_ventilacion">Calefacción y ventilación</string>
+    <string name="sub_piezas_termicas_descripcion_calefacción_y_ventilacion"></string>
+    <string name="sub_piezas_termicas_nombre_captores_y_sondas_termicas">Captores y sondas térmicas</string>
+    <string name="sub_piezas_termicas_descripcion_captores_y_sondas_termicas"></string>
+
+    <!--SUBCATEGORIA VISIBILIDAD-->
+    
+    <string name="sub_visibilidad_nombre_limpiaparabrisas">Limpiaparabrisas</string>
+    <string name="sub_visibilidad_descripcion_limpiaparabrisas"></string>
+    <string name="sub_visibilidad_nombre_opticos_y_faros">Ópticos y faros</string>
+    <string name="sub_visibilidad_descripcion_opticos_y_faros"></string>
+    <string name="sub_visibilidad_nombre_bombillas">Bombillas</string>
+    <string name="sub_visibilidad_descripcion_bombillas"></string>
+    <string name="sub_visibilidad_nombre_retrovisor_exterior">Retrovisores exteriores</string>
+    <string name="sub_visibilidad_descripcion_retrovisor_exterior"></string>
+
+
+
+    <!--SUBCATEGORIA PIEZAS HABITACULO-->
+    <string name="sub_piezas_habitaculo_nombre_muelles_neumaticos">Muelles neumáticos</string>
+    <string name="sub_piezas_habitaculo_descripcion_muelles_neumaticos"></string>
+    <string name="sub_piezas_habitaculo_nombre_elevalunas">Elevalunas</string>
+    <string name="sub_piezas_habitaculo_descripcion_elevalunas"></string>
+    <string name="sub_piezas_habitaculo_nombre_cierre">Cierre</string>
+    <string name="sub_piezas_habitaculo_descripcion_cierre"></string>
+    <string name="sub_piezas_habitaculo_nombre_electricidad">Electricidad</string>
+    <string name="sub_piezas_habitaculo_descripcion_electricidad"></string>
+    <string name="sub_piezas_habitaculo_nombre_mandos_y_pedales">Mandos y pedales</string>
+    <string name="sub_piezas_habitaculo_descripcion_mandos_y_pedales"></string>
+
+
+    <!--SUBCATEGORIA ACCESORIOS Y MANTENIMIENTO-->
+
+    <string name="sub_accesorios_mantenimiento_nombre_ayuda_conduccion">Ayuda a la conducción y aparcamiento</string>
+    <string name="sub_accesorios_mantenimiento_descripcion_ayuda_conduccion"></string>
+    <string name="sub_accesorios_mantenimiento_nombre_productos_mantenimiento">Productos de mantenimiento</string>
+    <string name="sub_accesorios_mantenimiento_descripcion_productos_mantenimiento"></string>
+    <string name="sub_accesorios_mantenimiento_nombre_tornillos_y_tuercas">Tornillos y tuercas</string>
+    <string name="sub_accesorios_mantenimiento_descripcion_tornillos_y_tuercas"></string>
+    <string name="sub_accesorios_mantenimiento_nombre_limpieza_carroceria">Limpieza de la carrocería y exterior</string>
+    <string name="sub_accesorios_mantenimiento_descripcion_limpieza_carroceria"></string>
+    <string name="sub_accesorios_mantenimiento_nombre_liquido_limpiacristales">Líquido limpiacristales</string>
+    <string name="sub_accesorios_mantenimiento_descripcion_liquido_limpiacristales"></string>
+    <string name="sub_accesorios_mantenimiento_nombre_cadenas_y_fundas_de_nieve">Cadenas y fundas de nieve</string>
+    <string name="sub_accesorios_mantenimiento_descripcion_cadenas_y_fundas_de_nieve"></string>
+
+
+    <!--SUBCATEGORIA HERRAMIENTAS-->
+    <string name="sub_herramientas_nombre_bujias">Herramientas para bujias</string>
+    <string name="sub_herramientas_descripcion_bujias"></string>
+    <string name="sub_herramientas_nombre_uso_general">Herramientas para uso general</string>
+    <string name="sub_herramientas_descripcion_uso_general"></string>
+    <string name="sub_herramientas_nombre_de_frenos">Herramientas de frenos</string>
+    <string name="sub_herramientas_descripcion_de_frenos"></string>
+    <string name="sub_herramientas_nombre_equipo_individual">Equipo individual</string>
+    <string name="sub_herramientas_descripcion_equipo_individual"></string>
+    <string name="sub_herramientas_nombre_calado_y_distribucion">Calado y distribución</string>
+    <string name="sub_herramientas_descripcion_calado_y_distribucion"></string>
+    <string name="sub_herramientas_nombre_para_baterias">Herramientas para baterías</string>
+    <string name="sub_herramientas_descripcion_para_baterias"></string>
+    <string name="sub_herramientas_nombre_carracas_y_vasos">Carracas y vasos</string>
+    <string name="sub_herramientas_descripcion_carracas_y_vasos"></string>
+    <string name="sub_herramientas_nombre_de_motor">Herramientas de motor</string>
+    <string name="sub_herramientas_descripcion_de_motor"></string>
+    <string name="sub_herramientas_nombre_embrague_y_caja_cambios">Herramientas de embrague y caja de cambios</string>
+    <string name="sub_herramientas_descripcion_embrague_y_caja_cambios"></string>
+    <string name="sub_herramientas_nombre_direccion_suspension_tren">Herramientas de dirección, suspensión, tren</string>
+    <string name="sub_herramientas_descripcion_direccion_suspension_tren"></string>
+    <string name="sub_herramientas_nombre_cambio_de_aceite">Herramientas para cambio de aceite</string>
+    <string name="sub_herramientas_descripcion_cambio_de_aceite"></string>
+    <string name="sub_herramientas_nombre_llaves">Llaves</string>
+    <string name="sub_herramientas_descripcion_llaves"></string>
+    <string name="sub_herramientas_nombre_filtrado">Herramientas de filtrado</string>
+    <string name="sub_herramientas_descripcion_filtrado"></string>
+    <string name="sub_herramientas_nombre_estuches">Cajas y estuches</string>
+    <string name="sub_herramientas_descripcion_estuches"></string>
+    <string name="sub_herramientas_nombre_escape">Herramientas de escape</string>
+    <string name="sub_herramientas_descripcion_escape"></string>
+    <!--FIN subcategorias-->
+
+
+    <string name="title_activity_frm_unidades">Unidades</string>
+    <string name="lb_ajuste_moneda">Moneda:</string>
+    <string name="lb_ajuste_pais">País:</string>
+    <string name="lb_precio_combustible">Precio Combustible:</string>
+    <string name="lb_cantidad_combustible">Cantidad de combustible:</string>
+    <string name="lb_ajuste_distancia">Distancia:</string>
+    <string name="lb_ajuste_velocidad">Velocidad:</string>
+    <string name="lb_ajuste_consumo">Consumo de combustible:</string>
+    <string name="lb_unidad_cantidad_litros">Litros</string>
+    <string name="lb_unidad_cantidad_galones_us">Galones US</string>
+    <string name="lb_unidad_cantidad_galones_uk">Galones imperiales</string>
+
+    <string name="ejemplo_operacion01_nombre">Cambio de Aceite</string>
+    <string name="ejemplo_operacion01_descripcion">Vaciado y llenado del carter de aceite</string>
+    <string name="ejemplo_operacion02_nombre">Cambio Filtro de Aceite</string>
+    <string name="ejemplo_operacion02_descripcion">Sustitución del elemento filtrador del aceite</string>
+    <string name="ejemplo_operacion03_nombre">Cambio Filtro de Aire</string>
+    <string name="ejemplo_operacion03_descripcion">Sustitución del elemento filtrador del aire</string>
+
+
+    <string name="tipo_combustible_diesel">Diesel</string>
+    <string name="tipo_combustible_gasolina">Petrol</string>
+    <string name="tipo_combustible_gasolina_95"></string>
+    <string name="tipo_combustible_gasolina_98"></string>
+    <string name="tipo_combustible_diesel_normal"></string>
+    <string name="tipo_combustible_diesel_mejorado"></string>
+
+    <string name="tipo_carretera_carretera">Carretera</string>
+    <string name="tipo_carretera_ciudad">Ciudad</string>
+    <string name="tipo_carretera_autopista">Autopista</string>
+    <string name="tipo_carretera_mixto">Mixto</string>
+
+    <string name="tipo_de_pago_efectivo">Efectivo</string>
+    <string name="tipo_de_pago_tarjeta">Tarjeta</string>
+
+    <string name="tipo_de_conduccion_normal">Normal</string>
+    <string name="tipo_de_conduccion_economica">Económica</string>
+    <string name="tipo_de_conduccion_deportiva">Deportiva</string>
+    <string name="km_repostaje_total">Total:</string>
+    <string name="separador_distancia_repostajes">/</string>
+    <string name="velocidad_km_por_hora">km/h</string>
+    <string name="velocidad_millas_por_hora">MPH</string>
+
+    <string name="lb_texto_introduccionUnidades">Seleccione las unidades adecuadas</string>
+
+
+</resources>

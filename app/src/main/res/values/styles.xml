@@ -1,0 +1,76 @@
+<resources>
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+
+        <!--
+                   Theme customizations available in newer API levels can go in
+                   res/values-vXX/styles.xml, while customizations related to
+                   backward-compatibility can go here.
+               -->
+
+    </style>
+
+    <!-- Application theme. -->
+    <color name="renault21_background_color">#f9b70b</color>
+    <color name="renault21_text_color">#cd6500</color>
+
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@drawable/degradado</item>
+        <item name="android:colorBackground">@color/renault21_background_color</item>
+        <item name="android:textColor">@color/renault21_text_color</item>
+        <item name="android:editTextColor">@color/renault21_text_color</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:checkboxStyle">@style/MyCheckbox</item>
+        <item name="android:radioButtonStyle">@style/MyRadioButton</item>
+
+
+    </style>
+
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/renault21_background_color</item>
+        <item name="android:textColor">@color/renault21_text_color</item>
+
+    </style>
+
+    <style name="MyCheckbox" parent="@android:style/Widget.Holo.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/renault21_text_color</item>
+
+    </style>
+
+    <style name="MyRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/renault21_text_color</item>
+
+    </style>
+
+    <!--Widget.CompoundButton.RadioButton-->
+
+
+    <style name="sample_activity">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+
+    <style name="toc_button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="plotStyle1">
+        <!--<item name="androidplot.title">Default Title</item>
+        <item name="androidplot.domainLabel">my domain</item>-->
+        <!--<item name="XYPlot:androidplot.title">my domain</item>-->
+    </style>
+
+
+</resources>
+
+
+
+

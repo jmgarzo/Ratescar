@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:ns1="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/common_colors.xml -->
+    <eat-comment/>
+    <color name="common_action_bar_splitter">#d2d2d2</color>
+    <color name="common_signin_btn_dark_text_default">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_dark_text_focused">@android:color/white</color>
+    <color name="common_signin_btn_dark_text_pressed">@android:color/white</color>
+    <color name="common_signin_btn_default_background">#FFDD4B39</color>
+    <color name="common_signin_btn_light_text_default">#FF737373</color>
+    <color name="common_signin_btn_light_text_disabled">#FFAAAAAA</color>
+    <color name="common_signin_btn_light_text_focused">#FF737373</color>
+    <color name="common_signin_btn_light_text_pressed">@android:color/white</color>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/RatesCar/aFileDialog/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="daidalos_active_file">#fff</color>
+    <color name="daidalos_backgroud">#000</color>
+    <color name="daidalos_gray">#888</color>
+    <color name="daidalos_inactive_file">#888</color>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <color name="renault21_background_color">#f9b70b</color>
+    <color name="renault21_text_color">#cd6500</color>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/wallet_colors.xml -->
+    <eat-comment/>
+    <color name="wallet_bright_foreground_disabled_holo_light">#ffb2b2b2</color>
+    <color name="wallet_bright_foreground_holo_dark">#fff3f3f3</color>
+    <color name="wallet_bright_foreground_holo_light">#ff000000</color>
+    <color name="wallet_dim_foreground_disabled_holo_dark">#80bebebe</color>
+    <color name="wallet_dim_foreground_holo_dark">#bebebe</color>
+    <color name="wallet_dim_foreground_inverse_disabled_holo_dark">#80323232</color>
+    <color name="wallet_dim_foreground_inverse_holo_dark">#323232</color>
+    <color name="wallet_highlighted_text_holo_dark">#6633b5e5</color>
+    <color name="wallet_highlighted_text_holo_light">#6633b5e5</color>
+    <color name="wallet_hint_foreground_holo_dark">#808080</color>
+    <color name="wallet_hint_foreground_holo_light">#808080</color>
+    <color name="wallet_holo_blue_light">#ff33b5e5</color>
+    <color name="wallet_link_text_light">#0000ee</color>
+    <declare-styleable name="AdsAttrs"><attr format="string" name="adSize"/><attr format="string" name="adSizes"/><attr format="string" name="adUnitId"/></declare-styleable>
+    <declare-styleable name="LoadingImageView"><attr format="enum" name="imageAspectRatioAdjust"><enum name="none" value="0"/><enum name="adjust_width" value="1"/><enum name="adjust_height" value="2"/></attr><attr format="float" name="imageAspectRatio"/><attr format="boolean" name="circleCrop"/></declare-styleable>
+    <declare-styleable name="MapAttrs"><attr format="enum" name="mapType"><enum name="none" value="0"/><enum name="normal" value="1"/><enum name="satellite" value="2"/><enum name="terrain" value="3"/><enum name="hybrid" value="4"/></attr><attr format="float" name="cameraBearing"/><attr format="float" name="cameraTargetLat"/><attr format="float" name="cameraTargetLng"/><attr format="float" name="cameraTilt"/><attr format="float" name="cameraZoom"/><attr format="boolean" name="liteMode"/><attr format="boolean" name="uiCompass"/><attr format="boolean" name="uiRotateGestures"/><attr format="boolean" name="uiScrollGestures"/><attr format="boolean" name="uiTiltGestures"/><attr format="boolean" name="uiZoomControls"/><attr format="boolean" name="uiZoomGestures"/><attr format="boolean" name="useViewLifecycle"/><attr format="boolean" name="zOrderOnTop"/><attr format="boolean" name="uiMapToolbar"/></declare-styleable>
+    <declare-styleable name="WalletFragmentOptions"><attr format="enum" name="appTheme"><enum name="holo_dark" value="0"/><enum name="holo_light" value="1"/></attr><attr format="enum" name="environment"><enum name="production" value="1"/><enum name="sandbox" value="0"/><enum name="strict_sandbox" value="2"/></attr><attr format="reference" name="fragmentStyle"/><attr format="enum" name="fragmentMode"><enum name="buyButton" value="1"/><enum name="selectionDetails" value="2"/></attr></declare-styleable>
+    <declare-styleable name="WalletFragmentStyle"><attr format="dimension" name="buyButtonHeight"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="dimension" name="buyButtonWidth"><enum name="match_parent" value="-1"/><enum name="wrap_content" value="-2"/></attr><attr format="enum" name="buyButtonText"><enum name="buy_with_google" value="1"/><enum name="buy_now" value="2"/><enum name="book_now" value="3"/><enum name="donate_with_google" value="4"/></attr><attr format="enum" name="buyButtonAppearance"><enum name="classic" value="1"/><enum name="grayscale" value="2"/><enum name="monochrome" value="3"/></attr><attr format="reference" name="maskedWalletDetailsTextAppearance"/><attr format="reference" name="maskedWalletDetailsHeaderTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsBackground"/><attr format="reference" name="maskedWalletDetailsButtonTextAppearance"/><attr format="reference|color" name="maskedWalletDetailsButtonBackground"/><attr format="color" name="maskedWalletDetailsLogoTextColor"/><attr format="enum" name="maskedWalletDetailsLogoImageType"><enum name="classic" value="1"/><enum name="monochrome" value="2"/></attr></declare-styleable>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="domain_label_font_size">13dp</dimen>
+    <dimen name="domain_tick_label_font_size">9dp</dimen>
+    <dimen name="legend_text_font_size">10dp</dimen>
+    <dimen name="pie_segment_label_font_size">10dp</dimen>
+    <dimen name="range_label_font_size">13dp</dimen>
+    <dimen name="range_tick_label_font_size">9dp</dimen>
+    <dimen name="title_font_size">20dp</dimen>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/version.xml -->
+    <eat-comment/>
+    <integer name="google_play_services_version">6587000</integer>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="accept">Accept</string>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="aceptar">Accept</string>
+    <string name="action_adjuntar">Add</string>
+    <string name="action_delete">Delete</string>
+    <string name="action_done">OK</string>
+    <string name="action_new">New</string>
+    <string name="action_nuevo_mantenimiento">New Maintenance</string>
+    <string name="action_nuevo_repostaje">New Refuel</string>
+    <string name="action_save">Save</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">All Car Expenses</string>
+    <string name="btn_actualizar_grafico">Refresh chart</string>
+    <string name="btn_anadir_operacion">Add maintenance operation</string>
+    <string name="btn_exportar">Export</string>
+    <string name="btn_importar">Import</string>
+    <string name="btn_operaciones_mantenimiento">Maintenance operations</string>
+    <string name="btn_recambios"> Spare part </string>
+    <string name="cancel">Cancel</string>
+    <string name="cat_descripcion_accesorios_mantenimiento">Products maintenance, cleaning, snow chains </string>
+    <string name="cat_descripcion_direccion">Shock absorbers, bearings, springs... </string>
+    <string name="cat_descripcion_embrague">Clutch, flywheel...</string>
+    <string name="cat_descripcion_escape">Silenciadores, tubos, catalizadores...</string>
+    <string name="cat_descripcion_filtracion">Fuel filters, air filters , oil...</string>
+    <string name="cat_descripcion_frenos">Brake calipers, brake discs, hydraulic, captors...</string>
+    <string name="cat_descripcion_herramientas">Spark plugs, draft, rattles, clutch...</string>
+    <string name="cat_descripcion_partes_motor"/>
+    <string name="cat_descripcion_piezas_habitaculo"/>
+    <string name="cat_descripcion_piezas_termicas">Air conditioning, heating, ventilation...</string>
+    <string name="cat_descripcion_sistema_arranque">Batteries, alternators, starter motors...</string>
+    <string name="cat_descripcion_visibilidad">Windshield wipers, headlights, light bulbs, mirrors</string>
+    <string name="cat_nombre_accesorios_mantenimiento">Accessories and Maintenance</string>
+    <string name="cat_nombre_direccion">Steering, suspension </string>
+    <string name="cat_nombre_embrague">Clutch / Gearbox</string>
+    <string name="cat_nombre_escape">Exhaust pipe</string>
+    <string name="cat_nombre_filtracion">Filtration</string>
+    <string name="cat_nombre_frenos">Brakes </string>
+    <string name="cat_nombre_herramientas">Tools</string>
+    <string name="cat_nombre_partes_motor">Engine parts</string>
+    <string name="cat_nombre_piezas_habitaculo">Interior parts</string>
+    <string name="cat_nombre_piezas_termicas">Air conditioning parts and thermal</string>
+    <string name="cat_nombre_sistema_arranque">System boot and load</string>
+    <string name="cat_nombre_visibilidad">Visibility </string>
+    <string name="chk_aa">A/C</string>
+    <string name="chk_activar_dropbox">Activate Dropbox</string>
+    <string name="chk_baca">Roof Bars</string>
+    <string name="chk_remolque">Trailer</string>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/common_strings.xml -->
+    <eat-comment/>
+    <string name="common_android_wear_notification_needs_update_text">An application requires an update to the Android Wear app.</string>
+    <string name="common_android_wear_update_text">This app won\'t run unless you update the Android Wear app.</string>
+    <string msgid="6006316683626838685" name="common_android_wear_update_title">Update Android Wear</string>
+    <string msgid="2523291102206661146" name="common_google_play_services_enable_button">Enable Google Play services</string>
+    <string msgid="227660514972886228" name="common_google_play_services_enable_text">This app won\'t work unless you enable Google Play services.</string>
+    <string msgid="5122002158466380389" name="common_google_play_services_enable_title">Enable Google Play services</string>
+    <string name="common_google_play_services_error_notification_requested_by_msg">Requested by <ns1:g id="app_name">%1$s</ns1:g></string>
+    <string msgid="7153882981874058840" name="common_google_play_services_install_button">Get Google Play services</string>
+    <string msgid="2122112764540849864" name="common_google_play_services_install_text_phone">This app won\'t run without Google Play services, which are missing from your phone.</string>
+    <string msgid="7351599665250191022" name="common_google_play_services_install_text_tablet">This app won\'t run without Google Play services, which are missing from your tablet.</string>
+    <string msgid="7215213145546190223" name="common_google_play_services_install_title">Get Google Play services</string>
+    <string name="common_google_play_services_invalid_account_text">The specified account does not exist on this device. Please choose a different account.</string>
+    <string name="common_google_play_services_invalid_account_title">Invalid Account</string>
+    <string name="common_google_play_services_needs_enabling_title">An application requires Google Play services to be enabled.</string>
+    <string name="common_google_play_services_network_error_text">A data connection is required to connect to Google Play services.</string>
+    <string name="common_google_play_services_network_error_title">Network Error</string>
+    <string name="common_google_play_services_notification_needs_installation_title">An application requires installation of Google Play services.</string>
+    <string name="common_google_play_services_notification_needs_update_title">An application requires an update for Google Play services.</string>
+    <string name="common_google_play_services_notification_ticker">Google Play services error</string>
+    <string name="common_google_play_services_unknown_issue">Unknown issue with Google Play services.</string>
+    <string name="common_google_play_services_unsupported_text">Google Play services, which some of your applications rely on, is not supported by your device. Please contact the manufacturer for assistance.</string>
+    <string name="common_google_play_services_unsupported_title">Google Play services</string>
+    <string msgid="6556509956452265614" name="common_google_play_services_update_button">Update</string>
+    <string msgid="9053896323427875356" name="common_google_play_services_update_text">This app won\'t run unless you update Google Play services.</string>
+    <string msgid="6006316683626838685" name="common_google_play_services_update_title">Update Google Play services</string>
+    <string name="common_open_on_phone">Open on phone</string>
+    <string name="common_signin_button_text">Sign in</string>
+    <string name="common_signin_button_text_long">Sign in with Google</string>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="create_calendar_message">Allow Ad to create a calendar event?</string>
+    <string name="create_calendar_title">Create calendar event</string>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/RatesCar/aFileDialog/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="daidalos_accept">Accept</string>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="daidalos_app_name">aFileDialog</string>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/RatesCar/aFileDialog/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="daidalos_cancel">Cancel</string>
+    <string name="daidalos_confirm_create_file">The file \'$file_name\' do not exists, are you sure that you want to create it?</string>
+    <string name="daidalos_confirm_create_folder">The folder \'$file_name\' do not exists, are you sure that you want to create it?</string>
+    <string name="daidalos_confirm_select_file">Are you sure that you want to select the file \'$file_name\'?</string>
+    <string name="daidalos_confirm_select_folder">Are you sure that you want to select the folder \'$file_name\'?</string>
+    <string name="daidalos_create_file">Create file</string>
+    <string name="daidalos_create_folder">Create folder</string>
+    <string name="daidalos_enter_file_name">Enter the name of the file that you want to create</string>
+    <string name="daidalos_enter_folder_name">Enter the name of the folder that you want to create</string>
+    <string name="daidalos_hello">Hello World!</string>
+    <string name="daidalos_new_file">New</string>
+    <string name="daidalos_no">No</string>
+    <string name="daidalos_ok">OK</string>
+    <string name="daidalos_select">Select</string>
+    <string name="daidalos_yes">Yes</string>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="decline">Decline</string>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="delete">Delete</string>
+    <string name="dialogo_delete_coche"> Are you sure you want to delete? All records will be deleted.</string>
+    <string name="dialogo_delete_impuesto_circulacion"> Are you sure you want to delete? </string>
+    <string name="dialogo_delete_itv"> Are you sure you want to delete? </string>
+    <string name="dialogo_delete_mantenimiento"> Are you sure you want to delete? </string>
+    <string name="dialogo_delete_operacion">Are you sure you want to delete? All records will be deleted.</string>
+    <string name="dialogo_delete_operacion_recambio">Are you sure you want to delete?</string>
+    <string name="dialogo_delete_peaje"> Are you sure you want to delete? </string>
+    <string name="dialogo_delete_recambio"> Are you sure you want to delete? </string>
+    <string name="dialogo_delete_repostaje"> Are you sure you want to delete? </string>
+    <string name="dialogo_delete_seguro"> Are you sure you want to delete? </string>
+    <string name="dialogo_importar_bbdd"> Do you want to import a new database? This delete all actual records</string>
+    <string name="dialogo_salir_sin_guardar"> Are you sure you want to leave?</string>
+    <string name="dialogo_salir_sin_guardar_operaciones_seleccionadas"> Are you sure you want to leave?</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
+    <string name="ejemplo_operacion01_descripcion">Oil change</string>
+    <string name="ejemplo_operacion01_nombre">Oil change</string>
+    <string name="ejemplo_operacion02_descripcion">Oil filter change</string>
+    <string name="ejemplo_operacion02_nombre">Oil filter change</string>
+    <string name="ejemplo_operacion03_descripcion">Change air filter</string>
+    <string name="ejemplo_operacion03_nombre">Change air filter</string>
+    <string name="error_coche_impuesto">You must select a car </string>
+    <string name="error_coche_itv">You must select a car</string>
+    <string name="error_coche_mantenimiento">Select a car</string>
+    <string name="error_coche_peaje">You must select a car</string>
+    <string name="error_coche_seguro">You must select a car</string>
+    <string name="error_coste_repostaje">Refuel cost is empty</string>
+    <string name="error_es_completo">Type is empty</string>
+    <string name="error_fecha_inicio_seguro">You must select a start date</string>
+    <string name="error_fecha_itv">You must select a date</string>
+    <string name="error_fecha_mantenimiento">Date is empty</string>
+    <string name="error_fecha_peaje">You must select a date</string>
+    <string name="error_fecha_repostaje">Refuel Date is empty</string>
+    <string name="error_fecha_vencimiento_seguro">You must select an end date</string>
+    <string name="error_km_mantenimiento">Odometer is empty</string>
+    <string name="error_km_recorridos">The odometer value must be greater than the last refueling</string>
+    <string name="error_km_repostaje">Odometer is empty</string>
+    <string name="error_litros">Quantity is empty</string>
+    <string name="error_no_hay_bbdd_estadisticas">To view the statistics you must first register a car </string>
+    <string name="error_no_hay_bbdd_impuesto_circulacion">To add a new tax must first register a car </string>
+    <string name="error_no_hay_bbdd_itv"> To add a new review must register a car first </string>
+    <string name="error_no_hay_bbdd_mantenimiento"> To add a new Maintenance must first register a car </string>
+    <string name="error_no_hay_bbdd_peaje">To add a new toll must first register a car </string>
+    <string name="error_no_hay_bbdd_recambio"> To add a new Spare must first register a car</string>
+    <string name="error_no_hay_bbdd_repostaje"> To add a new refueling must first register a car </string>
+    <string name="error_no_hay_bbdd_seguro">To add a new insurance must first register a car </string>
+    <string name="error_no_hay_repostajes">There is no car with at least two refueling. There are not enough data to construct the chart</string>
+    <string name="error_nombre_o_matricula">You must enter a car Registration </string>
+    <string name="error_nombre_operacion">You must add a name </string>
+    <string name="error_precio_litro">Price is empty</string>
+    <string name="gasto_combustible_resumen">Fuel costs: </string>
+    <string name="gasto_mantenimiento_resumen">Cost of car services: </string>
+    <string name="gasto_total_resumen">Total: </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="importar">Import</string>
+    <string name="inicio_sin_bbdd">Your welcome!  To start enjoying this application just add a new car or import a previous database from the settings menu.</string>
+    <string name="km_recorridos_resumen"> Km driven:</string>
+    <string name="km_repostaje_total">Total:</string>
+    <string name="lb_Dropbox">Dropbox</string>
+    <string name="lb_ajuste_consumo">Fuel efficiency:</string>
+    <string name="lb_ajuste_distancia">Distance</string>
+    <string name="lb_ajuste_moneda">Currency:</string>
+    <string name="lb_ajuste_pais">Country:</string>
+    <string name="lb_ajuste_velocidad">Speed</string>
+    <string name="lb_almacenamiento_interno"> Internal storage </string>
+    <string name="lb_anadir_fotografia_coche">Add photo </string>
+    <string name="lb_anualidad_impuesto_circulacion">Annuity: </string>
+    <string name="lb_cantidad">(*)Quantity: </string>
+    <string name="lb_cantidad_combustible">Amount of fuel:</string>
+    <string name="lb_cantidad_galones_uk">(*)Quantity: </string>
+    <string name="lb_cantidad_galones_us">(*)Quantity: </string>
+    <string name="lb_cantidad_litros">(*)Quantity: </string>
+    <string name="lb_cantidad_operacion_recambio">Quantity: </string>
+    <string name="lb_caracteristicas_recambio">Features</string>
+    <string name="lb_carretera_peaje">Road: </string>
+    <string name="lb_categoria_recambio">Category: </string>
+    <string name="lb_cc">Engine displacement: </string>
+    <string name="lb_coche_mantenimiento">(*)Car: </string>
+    <string name="lb_comentarios">Comments: </string>
+    <string name="lb_comentarios_impuesto_circulacion">Comment</string>
+    <string name="lb_comentarios_mantenimiento">Comments</string>
+    <string name="lb_comentarios_operacion">Comment: </string>
+    <string name="lb_comentarios_peaje">Comements: </string>
+    <string name="lb_comentarios_recambio">Comments</string>
+    <string name="lb_compania_seguro">Company: </string>
+    <string name="lb_coste_final">Cost</string>
+    <string name="lb_coste_iva"> Cost</string>
+    <string name="lb_coste_operacion">Amount: </string>
+    <string name="lb_coste_operacion_recambio">Price: </string>
+    <string name="lb_coste_sin_iva">Coste</string>
+    <string name="lb_costo">(*)Refuel cost: </string>
+    <string name="lb_descripcion_operacion">Description: </string>
+    <string name="lb_descripcion_recambio">Description: </string>
+    <string name="lb_descuento_total"/>
+    <string name="lb_direccion_peaje">Direction: </string>
+    <string name="lb_estacion_itv">Name: </string>
+    <string name="lb_estacion_servicio">Service station</string>
+    <string name="lb_fabricante_recambio">Manufacturer: </string>
+    <string name="lb_fecha_compra">Purchase Date: </string>
+    <string name="lb_fecha_fabricacion">Manufacturing date: </string>
+    <string name="lb_fecha_fin_consumo">to:</string>
+    <string name="lb_fecha_fin_pago_impuesto_circulacion">Ending date:</string>
+    <string name="lb_fecha_inicio_consumo">From:</string>
+    <string name="lb_fecha_inicio_seguro">(*)Effective date: </string>
+    <string name="lb_fecha_itv">(*)Date: </string>
+    <string name="lb_fecha_mantenimiento">(*)Date: </string>
+    <string name="lb_fecha_matriculacion">First registration: </string>
+    <string name="lb_fecha_peaje">(*)Date: </string>
+    <string name="lb_fecha_repostaje">(*)Refuel Date: </string>
+    <string name="lb_fecha_vencimiento_seguro">(*)End date: </string>
+    <string name="lb_fotografia_coche">Icon: </string>
+    <string name="lb_importe_impuesto_circulacion">Amount: </string>
+    <string name="lb_instrucciones_frmcoche">Required fields are marked with an asterisk (*)</string>
+    <string name="lb_km_actuales">Actual Mileage: </string>
+    <string name="lb_km_actuales_km">Actual Mileage:</string>
+    <string name="lb_km_actuales_millas">Actual Mileage:</string>
+    <string name="lb_km_iniciales">Initial mileage: </string>
+    <string name="lb_km_itv">Odometer: </string>
+    <string name="lb_km_mantenimiento">(*)Odometer: </string>
+    <string name="lb_km_repostaje">(*)Odometer: </string>
+    <string name="lb_marca_coche">(*)Manufacturer: </string>
+    <string name="lb_marca_recambio">Make</string>
+    <string name="lb_matricula">(*)Car Registration: </string>
+    <string name="lb_menu_camara_context_menu">Take a picture</string>
+    <string name="lb_menu_galeria_context_menu">Select a picture </string>
+    <string name="lb_millas_repostaje">(*)Odometer: </string>
+    <string name="lb_modelo_coche">Model: </string>
+    <string name="lb_no_hay_operaciones">No new parts available.</string>
+    <string name="lb_nombre_coche">Name: </string>
+    <string name="lb_nombre_mantenimiento">Name: </string>
+    <string name="lb_nombre_mantenimiento_operacion">Operation: </string>
+    <string name="lb_nombre_operacion">(*)Maintenance operation: </string>
+    <string name="lb_nombre_peaje">Name: </string>
+    <string name="lb_nombre_recambio">Name</string>
+    <string name="lb_observaciones_itv">Comments:</string>
+    <string name="lb_observaciones_seguro">Comments: </string>
+    <string name="lb_periodicidad_operacion">Periodicity: </string>
+    <string name="lb_periodicidad_seguro">Periodicity: </string>
+    <string name="lb_poliza_seguro">Policy number: </string>
+    <string name="lb_precio">(*)PPL: </string>
+    <string name="lb_precio_combustible">Fuel price:</string>
+    <string name="lb_precio_itv">Price :</string>
+    <string name="lb_precio_operacion_recambio">Price: </string>
+    <string name="lb_precio_peaje">Toll price: </string>
+    <string name="lb_precio_por_galon_uk">(*)Price per Gallon imp: </string>
+    <string name="lb_precio_por_galon_us">(*)Price per Gallon(US): </string>
+    <string name="lb_precio_por_litro">(*)(*)PPL: </string>
+    <string name="lb_prima_seguro"> Premium: </string>
+    <string name="lb_referencia_recambio">Part Number</string>
+    <string name="lb_resultado_itv">Result: </string>
+    <string name="lb_seleccionar_coche">(*)Select car: </string>
+    <string name="lb_seleccionar_coche_consumo1">Car 1:</string>
+    <string name="lb_seleccionar_coche_consumo2">Car 2:</string>
+    <string name="lb_seleccionar_operaciones">Select the operations you want to add to the current maintenance </string>
+    <string name="lb_seleccionar_recambios">Select the parts you want to add to the current operation </string>
+    <string name="lb_seleccionar_tipo_mantenimiento">*Type of maintenance: </string>
+    <string name="lb_separador_fecha"> -> </string>
+    <string name="lb_subcategoria_recambio">Subcategory: </string>
+    <string name="lb_tamano_deposito">Fuel tank volume: </string>
+    <string name="lb_tanto_cien_iva">%IVA</string>
+    <string name="lb_texto_introduccionUnidades">Select your appropriate units</string>
+    <string name="lb_tipo_carretera">Road type</string>
+    <string name="lb_tipo_combustible">(*)Fuel type: </string>
+    <string name="lb_tipo_conduccion">Driving style</string>
+    <string name="lb_tipo_mantenimiento">Description: </string>
+    <string name="lb_tipo_pago">Payment method</string>
+    <string name="lb_tipo_repostaje">(*)Type: </string>
+    <string name="lb_tipo_seguro">Payments: </string>
+    <string name="lb_ubicacion_peaje">Location: </string>
+    <string name="lb_unidad_cantidad_galones_uk">Gallons imp</string>
+    <string name="lb_unidad_cantidad_galones_us">Gallons US</string>
+    <string name="lb_unidad_cantidad_litros">Liters</string>
+    <string name="lb_velocidad_media">Avg. speed</string>
+    <string name="lb_version_coche">Trim: </string>
+    <string name="litros_consumidos_resumen">Fuel consumed: </string>
+    <string name="media_consumo_resumen"> Average consumption: </string>
+    <string name="mensaje_exportado_dropbox_completado">Export completed</string>
+    <string name="mensaje_exportando">Exporting to Dropbox...</string>
+    <string name="mensaje_exportando_dropbox_cancelado">Export canceled</string>
+    <string name="mensaje_no_existe_fichero_en_dropbox">There is no file in Dropbox</string>
+    <string name="mensaje_no_hay_conexion">No data connection</string>
+    <string name="mensaje_no_hay_conexion_dropbox">No connection to Dropbox</string>
+    <string name="no_errores">No errors</string>
+    <string name="numero_repostajes_resumen">Number of Refuelling: </string>
+    <string name="opcion_ajustes">Settings</string>
+    <string name="opcion_coches">Cars</string>
+    <string name="opcion_estadisticas">Stats</string>
+    <string name="opcion_impuesto_circulacion">Taxes </string>
+    <string name="opcion_inicio">Home</string>
+    <string name="opcion_itv">Vehicle inspection</string>
+    <string name="opcion_mantenimientos">Services</string>
+    <string name="opcion_peajes">Toll</string>
+    <string name="opcion_recambios">Car parts</string>
+    <string name="opcion_repostajes">Refuel</string>
+    <string name="opcion_seguros">Insurance</string>
+    <string name="precio_km_resumen">Price per km: </string>
+    <string name="precio_milla_resumen">Price per mile: </string>
+    <string name="rb_completo">Full</string>
+    <string name="rb_deportiva">Sport</string>
+    <string name="rb_economica">Economic</string>
+    <string name="rb_normal">Normal</string>
+    <string name="rb_parcial">Partial</string>
+    <string name="resultado_itv_desfavorable">Approved with issues</string>
+    <string name="resultado_itv_favorable">Approved</string>
+    <string name="resultado_itv_negativa">Fail</string>
+    <string name="separador_distancia_repostajes">/</string>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/admob_strings.xml -->
+    <eat-comment/>
+    <string name="store_picture_message">"Allow Ad to store image in Picture gallery?"</string>
+    <string name="store_picture_title">Save image</string>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="sub_accesorios_mantenimiento_descripcion_ayuda_conduccion"/>
+    <string name="sub_accesorios_mantenimiento_descripcion_cadenas_y_fundas_de_nieve"/>
+    <string name="sub_accesorios_mantenimiento_descripcion_limpieza_carroceria"/>
+    <string name="sub_accesorios_mantenimiento_descripcion_liquido_limpiacristales"/>
+    <string name="sub_accesorios_mantenimiento_descripcion_productos_mantenimiento"/>
+    <string name="sub_accesorios_mantenimiento_descripcion_tornillos_y_tuercas"/>
+    <string name="sub_accesorios_mantenimiento_nombre_ayuda_conduccion">Driving assistance and parking</string>
+    <string name="sub_accesorios_mantenimiento_nombre_cadenas_y_fundas_de_nieve">Snow chains</string>
+    <string name="sub_accesorios_mantenimiento_nombre_limpieza_carroceria">Car cleaning</string>
+    <string name="sub_accesorios_mantenimiento_nombre_liquido_limpiacristales">Washer fluid</string>
+    <string name="sub_accesorios_mantenimiento_nombre_productos_mantenimiento">Maintenance Products</string>
+    <string name="sub_accesorios_mantenimiento_nombre_tornillos_y_tuercas">Nuts and bolts</string>
+    <string name="sub_direccion_descripcion_amortiguadores"/>
+    <string name="sub_direccion_descripcion_cojinetes"/>
+    <string name="sub_direccion_descripcion_cubos_y_rodamientos"/>
+    <string name="sub_direccion_descripcion_direccion"/>
+    <string name="sub_direccion_descripcion_kit_reparacion_montaje"/>
+    <string name="sub_direccion_descripcion_muelles_y_fuelles"/>
+    <string name="sub_direccion_descripcion_otras_piezas_suspension"/>
+    <string name="sub_direccion_descripcion_otras_piezas_transmisión"/>
+    <string name="sub_direccion_descripcion_rotulas_de_direccion"/>
+    <string name="sub_direccion_descripcion_rotulas_y_suspension"/>
+    <string name="sub_direccion_descripcion_rueda"/>
+    <string name="sub_direccion_descripcion_suspension_de_ejes"/>
+    <string name="sub_direccion_descripcion_transmision"/>
+    <string name="sub_direccion_nombre_amortiguadores">Shock absorbers</string>
+    <string name="sub_direccion_nombre_cojinetes">Bushings</string>
+    <string name="sub_direccion_nombre_cubos_y_rodamientos">Hubs and rolling bearings</string>
+    <string name="sub_direccion_nombre_direccion">Steering </string>
+    <string name="sub_direccion_nombre_kit_reparacion_montaje">Repair and installation kit</string>
+    <string name="sub_direccion_nombre_muelles_y_fuelles">Springs</string>
+    <string name="sub_direccion_nombre_otras_piezas_suspension">Other suspension parts</string>
+    <string name="sub_direccion_nombre_otras_piezas_transmisión">Other transmission parts</string>
+    <string name="sub_direccion_nombre_rotulas_de_direccion">Steering knuckles</string>
+    <string name="sub_direccion_nombre_rotulas_y_suspension">Suspension ball joints</string>
+    <string name="sub_direccion_nombre_rueda">Wheel</string>
+    <string name="sub_direccion_nombre_suspension_de_ejes">Axle</string>
+    <string name="sub_direccion_nombre_transmision">Transmission</string>
+    <string name="sub_embrague_descripcion_accesorios_caja_cambios"/>
+    <string name="sub_embrague_descripcion_embrague_y_volante_motor"/>
+    <string name="sub_embrague_descripcion_otras_piezas_embrague"/>
+    <string name="sub_embrague_nombre_accesorios_caja_cambios">Gearbox accessories</string>
+    <string name="sub_embrague_nombre_embrague_y_volante_motor">Clutch and flywheel</string>
+    <string name="sub_embrague_nombre_otras_piezas_embrague">Otras piezas of embrague</string>
+    <string name="sub_escape_descripcion_accesorios_de_montaje"/>
+    <string name="sub_escape_descripcion_captadores_de_escape">Exhaust collector</string>
+    <string name="sub_escape_descripcion_catalizadores_y_filtros_de_particulas"/>
+    <string name="sub_escape_descripcion_otras_piezas_de_escape"/>
+    <string name="sub_escape_descripcion_silenciadores_y_tubos"/>
+    <string name="sub_escape_nombre_accesorios_de_montaje">Mounting Accessories</string>
+    <string name="sub_escape_nombre_captadores_de_escape">Exhaust collector</string>
+    <string name="sub_escape_nombre_catalizadores_y_filtros_de_particulas">Catalysts and particulate filters</string>
+    <string name="sub_escape_nombre_otras_piezas_de_escape">Other exhaust parts</string>
+    <string name="sub_escape_nombre_silenciadores_y_tubos">Mufflers and pipes</string>
+    <string name="sub_filtracion_descripcion_filtro"/>
+    <string name="sub_filtracion_nombre_filtro">Filters</string>
+    <string name="sub_frenos_descripcion_ayuda_al_frenada">Brake assist</string>
+    <string name="sub_frenos_descripcion_captores_y_cables"/>
+    <string name="sub_frenos_descripcion_discos_de_freno"/>
+    <string name="sub_frenos_descripcion_frenos_de_tambor"/>
+    <string name="sub_frenos_descripcion_hidraulica"/>
+    <string name="sub_frenos_descripcion_pastillas"/>
+    <string name="sub_frenos_nombre_ayuda_al_frenada">Ayuda a la frenada</string>
+    <string name="sub_frenos_nombre_captores_y_cables">Brake cables</string>
+    <string name="sub_frenos_nombre_discos_de_freno">Disc brakes</string>
+    <string name="sub_frenos_nombre_frenos_de_tambor">Drum brakes</string>
+    <string name="sub_frenos_nombre_hidraulica">Hydraulics</string>
+    <string name="sub_frenos_nombre_pastillas">Brake pads</string>
+    <string name="sub_herramientas_descripcion_bujias"/>
+    <string name="sub_herramientas_descripcion_calado_y_distribucion"/>
+    <string name="sub_herramientas_descripcion_cambio_de_aceite"/>
+    <string name="sub_herramientas_descripcion_carracas_y_vasos"/>
+    <string name="sub_herramientas_descripcion_de_frenos"/>
+    <string name="sub_herramientas_descripcion_de_motor"/>
+    <string name="sub_herramientas_descripcion_direccion_suspension_tren"/>
+    <string name="sub_herramientas_descripcion_embrague_y_caja_cambios"/>
+    <string name="sub_herramientas_descripcion_equipo_individual"/>
+    <string name="sub_herramientas_descripcion_escape"/>
+    <string name="sub_herramientas_descripcion_estuches"/>
+    <string name="sub_herramientas_descripcion_filtrado"/>
+    <string name="sub_herramientas_descripcion_llaves"/>
+    <string name="sub_herramientas_descripcion_para_baterias"/>
+    <string name="sub_herramientas_descripcion_uso_general"/>
+    <string name="sub_herramientas_nombre_bujias">Spark Plug Tools</string>
+    <string name="sub_herramientas_nombre_calado_y_distribucion">Car distribution</string>
+    <string name="sub_herramientas_nombre_cambio_de_aceite">Tools for oil change</string>
+    <string name="sub_herramientas_nombre_carracas_y_vasos">Ratchets</string>
+    <string name="sub_herramientas_nombre_de_frenos">Brake tools</string>
+    <string name="sub_herramientas_nombre_de_motor">Engine tools</string>
+    <string name="sub_herramientas_nombre_direccion_suspension_tren">Tools of steering, suspension </string>
+    <string name="sub_herramientas_nombre_embrague_y_caja_cambios">Tools clutch and gearbox</string>
+    <string name="sub_herramientas_nombre_equipo_individual">Individual equipment</string>
+    <string name="sub_herramientas_nombre_escape">Exhaust tools</string>
+    <string name="sub_herramientas_nombre_estuches">Boxes and cases</string>
+    <string name="sub_herramientas_nombre_filtrado">Filtering tools</string>
+    <string name="sub_herramientas_nombre_llaves">Keys</string>
+    <string name="sub_herramientas_nombre_para_baterias">Tools for batteries</string>
+    <string name="sub_herramientas_nombre_uso_general">Tools utility</string>
+    <string name="sub_motor_descripcion_aceite_accesorios_purga"/>
+    <string name="sub_motor_descripcion_anticongelante"/>
+    <string name="sub_motor_descripcion_bomba"/>
+    <string name="sub_motor_descripcion_bujias_y_precalentamiento"/>
+    <string name="sub_motor_descripcion_captores_y_cables"/>
+    <string name="sub_motor_descripcion_correas"/>
+    <string name="sub_motor_descripcion_inyeccion_y_carburacion"/>
+    <string name="sub_motor_descripcion_lubricacion"/>
+    <string name="sub_motor_descripcion_motor_y_culata"/>
+    <string name="sub_motor_descripcion_soportes_motor"/>
+    <string name="sub_motor_descripcion_turbocompresor"/>
+    <string name="sub_motor_descripcion_valvulas"/>
+    <string name="sub_motor_nombre_aceite_accesorios_purga">Oil drain and accessories</string>
+    <string name="sub_motor_nombre_anticongelante">Antifreeze</string>
+    <string name="sub_motor_nombre_bomba">Pump</string>
+    <string name="sub_motor_nombre_bujias_y_precalentamiento">Plugs</string>
+    <string name="sub_motor_nombre_captores_y_cables">Motor wires</string>
+    <string name="sub_motor_nombre_correas">belts</string>
+    <string name="sub_motor_nombre_inyeccion_y_carburacion">Injection</string>
+    <string name="sub_motor_nombre_lubricacion">Lubrication</string>
+    <string name="sub_motor_nombre_motor_y_culata">Motor and cylinder head</string>
+    <string name="sub_motor_nombre_soportes_motor">Engine mounts</string>
+    <string name="sub_motor_nombre_turbocompresor">Turbocharger</string>
+    <string name="sub_motor_nombre_valvulas">Valves</string>
+    <string name="sub_piezas_habitaculo_descripcion_cierre"/>
+    <string name="sub_piezas_habitaculo_descripcion_electricidad"/>
+    <string name="sub_piezas_habitaculo_descripcion_elevalunas"/>
+    <string name="sub_piezas_habitaculo_descripcion_mandos_y_pedales"/>
+    <string name="sub_piezas_habitaculo_descripcion_muelles_neumaticos"/>
+    <string name="sub_piezas_habitaculo_nombre_cierre">Central lock</string>
+    <string name="sub_piezas_habitaculo_nombre_electricidad">Electricity</string>
+    <string name="sub_piezas_habitaculo_nombre_elevalunas">Electric windows</string>
+    <string name="sub_piezas_habitaculo_nombre_mandos_y_pedales">Controls and car pedals</string>
+    <string name="sub_piezas_habitaculo_nombre_muelles_neumaticos">hydraulic springs</string>
+    <string name="sub_piezas_termicas_descripcion_calefacción_y_ventilacion"/>
+    <string name="sub_piezas_termicas_descripcion_captores_y_sondas_termicas"/>
+    <string name="sub_piezas_termicas_descripcion_climatizacion"/>
+    <string name="sub_piezas_termicas_descripcion_refrigeracion"/>
+    <string name="sub_piezas_termicas_nombre_calefacción_y_ventilacion">Heating and ventilation</string>
+    <string name="sub_piezas_termicas_nombre_captores_y_sondas_termicas">Sensors and temperature sensors</string>
+    <string name="sub_piezas_termicas_nombre_climatizacion">Air conditioning</string>
+    <string name="sub_piezas_termicas_nombre_refrigeracion">Refrigeration</string>
+    <string name="sub_sistema_arranque_descripcion_alternadores"/>
+    <string name="sub_sistema_arranque_descripcion_baterias"/>
+    <string name="sub_sistema_arranque_descripcion_motores_de_arranque"/>
+    <string name="sub_sistema_arranque_nombre_alternadores">Alternators</string>
+    <string name="sub_sistema_arranque_nombre_baterias">Batteries</string>
+    <string name="sub_sistema_arranque_nombre_motores_de_arranque">Starters</string>
+    <string name="sub_visibilidad_descripcion_bombillas"/>
+    <string name="sub_visibilidad_descripcion_limpiaparabrisas"/>
+    <string name="sub_visibilidad_descripcion_opticos_y_faros"/>
+    <string name="sub_visibilidad_descripcion_retrovisor_exterior"/>
+    <string name="sub_visibilidad_nombre_bombillas">Bulbs</string>
+    <string name="sub_visibilidad_nombre_limpiaparabrisas">Windshield wiper</string>
+    <string name="sub_visibilidad_nombre_opticos_y_faros">Headlights</string>
+    <string name="sub_visibilidad_nombre_retrovisor_exterior">Mirrors</string>
+    <string name="subtitulo_ajuste_importar_exportar">Backup or load records</string>
+    <string name="subtitulo_ajuste_unidades">Setting units</string>
+    <string name="subtitulo_estadisticas_consumo_medio">Study and compare the consumption of your car</string>
+    <string name="subtitulo_resumen"/>
+    <string name="tipo_carretera_autopista">Freeway</string>
+    <string name="tipo_carretera_carretera">Highway</string>
+    <string name="tipo_carretera_ciudad">City</string>
+    <string name="tipo_carretera_mixto">Mixed</string>
+    <string name="tipo_combustible_diesel">Diesel</string>
+    <string name="tipo_combustible_diesel_mejorado"/>
+    <string name="tipo_combustible_diesel_normal"/>
+    <string name="tipo_combustible_gasolina">Petrol</string>
+    <string name="tipo_combustible_gasolina_95"/>
+    <string name="tipo_combustible_gasolina_98"/>
+    <string name="tipo_de_conduccion_deportiva">Sport</string>
+    <string name="tipo_de_conduccion_economica">Economic</string>
+    <string name="tipo_de_conduccion_normal">Normal</string>
+    <string name="tipo_de_pago_efectivo">Cash</string>
+    <string name="tipo_de_pago_tarjeta">Card</string>
+    <string name="tipo_periodicidad_operacion_ano"> year/years </string>
+    <string name="tipo_periodicidad_operacion_km"> km </string>
+    <string name="tipo_periodicidad_operacion_meses"> month/months </string>
+    <string name="tipo_periodicidad_operacion_millas"> miles </string>
+    <string name="tipo_periodicidad_seguro_ano"> Year/s </string>
+    <string name="tipo_periodicidad_seguro_dia"> Day/s </string>
+    <string name="tipo_periodicidad_seguro_mes"> Month/s </string>
+    <string name="tipo_repostaje_parcial">Partial</string>
+    <string name="tipo_seguro_a_terceros"> Third party insurance </string>
+    <string name="tipo_seguro_a_terceros_ampliado">Extended third party insurance</string>
+    <string name="tipo_seguro_a_todo_riesgo">All risks</string>
+    <string name="tipo_seguro_a_todo_riesgo_franquicia">All risk with excess</string>
+    <string name="tipo_seguro_complementario">Supplementary insurance</string>
+    <string name="title_activity_est_consumo_medio">Middle consumption statistics</string>
+    <string name="title_activity_est_consumo_medio2">Average consumption</string>
+    <string name="title_activity_fragment_ajustes">Settings</string>
+    <string name="title_activity_fragment_coches">Cars</string>
+    <string name="title_activity_fragment_estadisticas">Stats</string>
+    <string name="title_activity_fragment_impuesto_circulacion">Taxes</string>
+    <string name="title_activity_fragment_inicio">Home</string>
+    <string name="title_activity_fragment_itvs">Vehicle inspection</string>
+    <string name="title_activity_fragment_mantenimientos">Maintenance</string>
+    <string name="title_activity_fragment_peajes">Tolls</string>
+    <string name="title_activity_fragment_recambios">Car Parts</string>
+    <string name="title_activity_fragment_repostajes">Refueling</string>
+    <string name="title_activity_fragment_seguros">Car Insurance</string>
+    <string name="title_activity_frm_coche">Car</string>
+    <string name="title_activity_frm_detalle">Car</string>
+    <string name="title_activity_frm_importar_exportar">Import/Export</string>
+    <string name="title_activity_frm_impuesto_circulacion">Taxes</string>
+    <string name="title_activity_frm_itv">Vehicle inspection</string>
+    <string name="title_activity_frm_mantenimiento">Service</string>
+    <string name="title_activity_frm_mantenimiento_operacion">Operation detail</string>
+    <string name="title_activity_frm_nuevo_coche">New Car</string>
+    <string name="title_activity_frm_operacion">Maintenance</string>
+    <string name="title_activity_frm_operacion_recambio">Spare part</string>
+    <string name="title_activity_frm_peaje">Toll</string>
+    <string name="title_activity_frm_recambio">Car part</string>
+    <string name="title_activity_frm_repostaje">Refuel: </string>
+    <string name="title_activity_frm_seguro">Insurance</string>
+    <string name="title_activity_frm_unidades">Units:</string>
+    <string name="title_activity_lst_operaciones_mantenimiento">Maintenance operation</string>
+    <string name="title_activity_lst_operaciones_recambios">Maintenance Operation</string>
+    <string name="title_activity_lst_recambios">Spare parts</string>
+    <string name="title_activity_operaciones_mantenimiento">Select maintenance </string>
+    <string name="titulo_ajuste_importar_exportar"> Import/Export</string>
+    <string name="titulo_ajuste_unidades">Units</string>
+    <string name="titulo_alerta_errores">Oops! Some Fields are Missing </string>
+    <string name="titulo_alerta_inicio_bbdd">Database don\'t exist</string>
+    <string name="titulo_error_no_hay_repostajes">Ups!</string>
+    <string name="titulo_estadisticas_consumo_medio">Average consumption</string>
+    <string name="titulo_grafico_consumo_medio">Average consumption</string>
+    <string name="titulo_grafico_consumo_medio_domain">Date</string>
+    <string name="titulo_grafico_consumo_medio_range">Average consumption</string>
+    <string name="titulo_menu_sacar_foto">Take a picture </string>
+    <string name="titulo_menu_seleccionar_de_galeria">Select a picture from gallery</string>
+    <string name="titulo_resumen">Car: </string>
+    <string name="toast_fichero_creado">Created file: </string>
+    <string name="toast_fichero_seleccionado">Selected file: </string>
+    <string name="txt_no_hay_operaciones">No new operations available. \nIf needed, you can create new operations </string>
+    <string name="unidad_consumo">l/100</string>
+    <string name="unidad_consumo_galones_US">MPG US</string>
+    <string name="unidad_consumo_galones_imperiales">MPG Imp</string>
+    <string name="unidad_consumo_litros">l/100</string>
+    <string name="unidad_distancia">km</string>
+    <string name="unidad_distancia_km">km</string>
+    <string name="unidad_distancia_millas">mi</string>
+    <string name="unidad_moneda">€</string>
+    <string name="unidad_volumen_cc">cc</string>
+    <string name="unidad_volumen_galones_UK">Gallons Imp</string>
+    <string name="unidad_volumen_galones_US">Gallons US</string>
+    <string name="unidad_volumen_litros">liters</string>
+    <string name="velocidad_km_por_hora">km/h</string>
+    <string name="velocidad_millas_por_hora">MPH</string>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/wallet_strings.xml -->
+    <eat-comment/>
+    <string name="wallet_buy_button_place_holder" translation_description="Text on a button that allows a user to make a payment with Google Wallet [CHAR LIMIT=30]">Buy with Google</string>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+
+        <!--
+                   Theme customizations available in newer API levels can go in
+                   res/values-vXX/styles.xml, while customizations related to
+                   backward-compatibility can go here.
+               -->
+
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="android:windowBackground">@drawable/degradado</item>
+        <item name="android:colorBackground">@color/renault21_background_color</item>
+        <item name="android:textColor">@color/renault21_text_color</item>
+        <item name="android:editTextColor">@color/renault21_text_color</item>
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+        <item name="android:checkboxStyle">@style/MyCheckbox</item>
+        <item name="android:radioButtonStyle">@style/MyRadioButton</item>
+
+
+    </style>
+    <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/renault21_background_color</item>
+        <item name="android:textColor">@color/renault21_text_color</item>
+
+    </style>
+    <style name="MyCheckbox" parent="@android:style/Widget.Holo.CompoundButton.CheckBox">
+        <item name="android:textColor">@color/renault21_text_color</item>
+
+    </style>
+    <style name="MyRadioButton" parent="@android:style/Widget.CompoundButton.RadioButton">
+        <item name="android:textColor">@color/renault21_text_color</item>
+
+    </style>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/admob_iap_style.xml -->
+    <eat-comment/>
+    <style name="Theme.IAPTheme" parent="android:Theme">
+    <item name="android:windowIsTranslucent">true</item>
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="android:windowContentOverlay">@null</item>
+    <item name="android:windowNoTitle">true</item>
+    <item name="android:windowIsFloating">true</item>
+    <item name="android:backgroundDimEnabled">false</item>
+  </style>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/res/values/wallet_styles.xml -->
+    <eat-comment/>
+    <style name="WalletFragmentDefaultButtonTextAppearance">
+        <item name="android:textColor">@color/wallet_primary_text_holo_light</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_light</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_light</item>
+        <item name="android:textColorLink">@color/wallet_link_text_light</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsHeaderTextAppearance" parent="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="WalletFragmentDefaultDetailsTextAppearance">
+        <item name="android:textColor">@color/wallet_secondary_text_holo_dark</item>
+        <item name="android:textColorHighlight">@color/wallet_highlighted_text_holo_dark</item>
+        <item name="android:textColorHint">@color/wallet_hint_foreground_holo_dark</item>
+        <item name="android:textColorLink">@color/wallet_holo_blue_light</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+    <style name="WalletFragmentDefaultStyle">
+        <item name="buyButtonHeight">48dp</item>
+        <item name="buyButtonWidth">match_parent</item>
+        <item name="buyButtonText">buy_with_google</item>
+        <item name="buyButtonAppearance">classic</item>
+        <item name="maskedWalletDetailsTextAppearance">@style/WalletFragmentDefaultDetailsTextAppearance</item>
+        <item name="maskedWalletDetailsHeaderTextAppearance">@style/WalletFragmentDefaultDetailsHeaderTextAppearance</item>
+        <item name="maskedWalletDetailsBackground">@color/wallet_bright_foreground_holo_light</item>
+        <item name="maskedWalletDetailsButtonBackground">@android:drawable/btn_default</item>
+        <item name="maskedWalletDetailsButtonTextAppearance">@style/WalletFragmentDefaultButtonTextAppearance</item>
+        <item name="maskedWalletDetailsLogoTextColor">@color/wallet_bright_foreground_holo_dark</item>
+        <item name="maskedWalletDetailsLogoImageType">classic</item>
+    </style>
+    <!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="plotStyle1">
+        <!--<item name="androidplot.title">Default Title</item>
+        <item name="androidplot.domainLabel">my domain</item>-->
+        <!--<item name="XYPlot:androidplot.title">my domain</item>-->
+    </style>
+    <style name="sample_activity">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="toc_button">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+</resources>

@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jmgarzo.ratescar"
+    android:installLocation="auto"
+    android:versionCode="17"
+    android:versionName="0.9.17" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+
+        <!-- publicidad google -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <!-- Google analytics -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <activity
+            android:name="com.jmgarzo.ratescar.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- <activity -->
+        <!-- android:name=".FragmentCoches" -->
+        <!-- android:label="@string/title_activity_fragment_coches" /> -->
+        <activity
+            android:name="com.jmgarzo.ratescar.FragmentInicio"
+            android:label="@string/title_activity_fragment_inicio" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FragmentRepostajes"
+            android:label="@string/title_activity_fragment_repostajes" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FragmentMantenimientos"
+            android:label="@string/title_activity_fragment_mantenimientos" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FragmentItv"
+            android:label="@string/title_activity_fragment_itvs" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FragmentPeaje"
+            android:label="@string/title_activity_fragment_peajes" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FragmentSeguros"
+            android:label="@string/title_activity_fragment_seguros" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FragmentAjustes"
+            android:label="@string/title_activity_fragment_ajustes" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FragmentImpuestoCirculacion"
+            android:label="@string/title_activity_fragment_impuesto_circulacion" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FragmentEstadisticas"
+            android:label="@string/title_activity_fragment_estadisticas" />
+        <!-- <activity -->
+        <!-- android:name=".FrmDetalleCoche" -->
+        <!-- android:label="@string/title_activity_frm_detalle" -->
+        <!-- android:parentActivityName=".FragmentCoches" /> -->
+        <!-- <activity -->
+        <!-- android:name=".FrmNuevoCoche" -->
+        <!-- android:label="@string/title_activity_frm_nuevo_coche" -->
+        <!-- android:parentActivityName=".FragmentCoches" /> -->
+        <activity
+            android:name="com.jmgarzo.ratescar.FrmRepostaje"
+            android:configChanges="orientation|keyboard|keyboardHidden"
+            android:label="@string/title_activity_frm_repostaje"
+            android:parentActivityName="com.jmgarzo.ratescar.FragmentRepostajes"
+            android:screenOrientation="sensor" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FrmRecambio"
+            android:label="@string/title_activity_frm_recambio" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FrmMantenimiento"
+            android:label="@string/title_activity_frm_mantenimiento"
+            android:parentActivityName="com.jmgarzo.ratescar.FragmentMantenimientos" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FrmItv"
+            android:label="@string/title_activity_frm_itv"
+            android:parentActivityName="com.jmgarzo.ratescar.FragmentItv" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FrmPeaje"
+            android:label="@string/title_activity_frm_peaje"
+            android:parentActivityName="com.jmgarzo.ratescar.FragmentPeaje" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FrmSeguro"
+            android:label="@string/title_activity_frm_seguro"
+            android:parentActivityName="com.jmgarzo.ratescar.FragmentSeguros" />
+        <activity android:name="com.dropbox.sync.android.DbxAuthActivity" />
+        <activity
+            android:name="com.dropbox.client2.android.AuthActivity"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <data android:scheme="db-aep1aa93gs1iauo" />
+
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.BROWSABLE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <service
+            android:name="com.dropbox.sync.android.DbxSyncService"
+            android:enabled="true"
+            android:exported="false"
+            android:label="Dropbox Sync" />
+
+        <activity
+            android:name="com.jmgarzo.ratescar.FrmImportarExportar"
+            android:label="@string/title_activity_frm_importar_exportar"
+            android:parentActivityName="com.jmgarzo.ratescar.FragmentAjustes" />
+        <!-- <activity -->
+        <!-- android:name=".EstConsumoMedio" -->
+        <!-- android:label="@string/title_activity_est_consumo_medio" -->
+        <!-- android:parentActivityName=".FragmentEstadisticas"> -->
+        <!-- > -->
+
+        <activity
+            android:name="com.jmgarzo.ratescar.EstConsumoMedio2"
+            android:label="@string/title_activity_est_consumo_medio2"
+            android:parentActivityName="com.jmgarzo.ratescar.FragmentEstadisticas" />
+        <!-- <activity -->
+        <!-- android:name=".FrmCoche" -->
+        <!-- android:label="@string/title_activity_frm_coche" -->
+        <!-- android:parentActivityName=".FragmentCoches" /> -->
+
+        <activity
+            android:name="com.jmgarzo.ratescar.FrmCoche"
+            android:label="@string/title_activity_frm_coche" />
+        <activity
+            android:name="com.google.android.gms.ads.AdActivity"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        <activity
+            android:name="com.jmgarzo.ratescar.FrmImpuestoCirculacion"
+            android:label="@string/title_activity_frm_impuesto_circulacion"
+            android:parentActivityName="com.jmgarzo.ratescar.FragmentImpuestoCirculacion" />
+        <activity
+            android:name="com.jmgarzo.ratescar.LstOperaciones"
+            android:label="@string/title_activity_operaciones_mantenimiento" >
+        </activity>
+        <activity
+            android:name="com.jmgarzo.ratescar.FrmOperacion"
+            android:label="@string/title_activity_frm_operacion" >
+        </activity>
+        <activity
+            android:name="com.jmgarzo.ratescar.LstMantenimientoOperaciones"
+            android:label="@string/title_activity_lst_operaciones_mantenimiento" >
+        </activity>
+        <activity
+            android:name="com.jmgarzo.ratescar.FrmMantenimientoOperacion"
+            android:label="@string/title_activity_frm_mantenimiento_operacion" >
+        </activity>
+        <activity
+            android:name="com.jmgarzo.ratescar.LstOperacionesRecambios"
+            android:label="@string/title_activity_lst_operaciones_recambios" >
+        </activity>
+        <activity
+            android:name="com.jmgarzo.ratescar.FrmOperacionRecambio"
+            android:label="@string/title_activity_frm_operacion_recambio" >
+        </activity>
+        <activity
+            android:name="com.jmgarzo.ratescar.LstRecambios"
+            android:label="@string/title_activity_lst_recambios" >
+        </activity>
+        <activity
+            android:name="com.jmgarzo.ratescar.FrmUnidades"
+            android:label="@string/title_activity_frm_unidades" >
+        </activity>
+        <activity android:name="ar.com.daidalos.afiledialog.FileChooserActivity" />
+    </application>
+
+</manifest>
