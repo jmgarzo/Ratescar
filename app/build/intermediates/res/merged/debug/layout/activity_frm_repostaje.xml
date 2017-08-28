@@ -434,4 +434,4 @@
         android:gravity="bottom"
         android:orientation="vertical"></LinearLayout>
 
-</LinearLayout><!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/layout/activity_frm_repostaje.xml -->
+</LinearLayout>

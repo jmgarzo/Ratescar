@@ -10,4 +10,4 @@
         android:icon="@drawable/ic_action_new_picture"
         android:title="@string/lb_menu_galeria_context_menu" />
 
-</menu><!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/menu/context_menu_foto.xml -->
+</menu>

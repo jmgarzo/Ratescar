@@ -30,4 +30,4 @@
     <!--android:layout_toRightOf="@+id/checkBox1"-->
     <!--android:text="TextView" />-->
 
-</LinearLayout><!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/layout/list_operaciones.xml -->
+</LinearLayout>

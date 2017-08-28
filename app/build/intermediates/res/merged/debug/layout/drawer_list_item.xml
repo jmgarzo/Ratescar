@@ -9,4 +9,3 @@
     android:textColor="#fff"
     android:background="?android:attr/activatedBackgroundIndicator"
     android:minHeight="?android:attr/listPreferredItemHeightSmall"/>
-<!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/layout/drawer_list_item.xml -->

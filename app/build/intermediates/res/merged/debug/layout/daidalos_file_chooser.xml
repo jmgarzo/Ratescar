@@ -46,4 +46,4 @@
             android:text="@string/daidalos_ok" />
         
     </LinearLayout>
-</LinearLayout><!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/aFileDialog/src/main/res/layout/daidalos_file_chooser.xml --><!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/build/intermediates/exploded-aar/RatesCar/aFileDialog/unspecified/res/layout/daidalos_file_chooser.xml -->
+</LinearLayout>

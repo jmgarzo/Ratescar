@@ -1,0 +1,134 @@
+[
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/fragment_coches.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/fragment_coches.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_lst_operaciones_mantenimiento.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_lst_operaciones_mantenimiento.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_est_consumo_medio2.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_est_consumo_medio2.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/fragment_estadisticas.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/fragment_estadisticas.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_est_consumo_medio.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_est_consumo_medio.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/fragment_repostajes.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/fragment_repostajes.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_operaciones_mantenimiento.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_operaciones_mantenimiento.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/frm_nuevo_coche.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/frm_nuevo_coche.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_frm_mantenimiento_operacion.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_frm_mantenimiento_operacion.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_fragment_impuesto_circulacion.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_fragment_impuesto_circulacion.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/fragment_seguros.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/fragment_seguros.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_frm_operacion_recambio.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_frm_operacion_recambio.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_frm_operacion.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_frm_operacion.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_frm_recambio.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_frm_recambio.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_frm_seguro.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_frm_seguro.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_frm_unidades.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_frm_unidades.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_frm_importar_exportar.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_frm_importar_exportar.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/context_menu_foto.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/context_menu_foto.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_frm_repostaje.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_frm_repostaje.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/fragment_mantenimientos.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/fragment_mantenimientos.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/fragment_peaje.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/fragment_peaje.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/frm_itv.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/frm_itv.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_frm_impuesto_circulacion.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_frm_impuesto_circulacion.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/fragment_recambios.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/fragment_recambios.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/frm_detalle_coche.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/frm_detalle_coche.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_frm_peaje.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_frm_peaje.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/fragment_itv.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/fragment_itv.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_frm_coche.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_frm_coche.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_lst_operaciones_recambios.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_lst_operaciones_recambios.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/fragment_inicio.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/fragment_inicio.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/menu_lst_recambios.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/menu_lst_recambios.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/menu/frm_mantenimiento.xml",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/app/src/main/res/menu/frm_mantenimiento.xml"
+    }
+]

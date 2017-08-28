@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/color/common_signin_btn_text_light.xml",
+        "source": "/home/jmgarzo/.android/build-cache/ee5ee842915f7752e5e22a556e46299d79c54834/output/res/color/common_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
+        "source": "/home/jmgarzo/.android/build-cache/ee5ee842915f7752e5e22a556e46299d79c54834/output/res/color/wallet_secondary_text_holo_dark.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/color/common_signin_btn_text_dark.xml",
+        "source": "/home/jmgarzo/.android/build-cache/ee5ee842915f7752e5e22a556e46299d79c54834/output/res/color/common_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
+        "source": "/home/jmgarzo/.android/build-cache/ee5ee842915f7752e5e22a556e46299d79c54834/output/res/color/wallet_primary_text_holo_light.xml"
+    }
+]

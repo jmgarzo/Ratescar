@@ -1,0 +1,19 @@
+#Mon Aug 28 17:06:53 IST 2017
+renamed.5=classes6.dex
+renamed.4=classes.dex
+renamed.3=classes3.dex
+renamed.2=classes2.dex
+renamed.1=classes5.dex
+renamed.0=classes4.dex
+base.5=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/2/androidplot-core-0.6.1_dd1f8f2b47fb1ed0f367c8c5b40c23b436b99d48
+base.4=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.2_d0cdc5c7b1aef33ca4e0d6353027c573b79154ee
+base.3=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_16927d7f71230b8a4b24b8b8185af67ae3766d9d
+base.2=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.2_e9907f0d751b061b3214be3e000969fee255f89d
+base.1=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/2/dropbox-sync-sdk-android_ac95276d22a16923f364e211cd3af9ab73fb5d36
+base.0=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bcaba868de2817b46c3b2a07eb02f0ce8197ee8c
+file.5=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/2/androidplot-core-0.6.1_dd1f8f2b47fb1ed0f367c8c5b40c23b436b99d48/classes.dex
+file.4=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.2_d0cdc5c7b1aef33ca4e0d6353027c573b79154ee/classes.dex
+file.3=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_16927d7f71230b8a4b24b8b8185af67ae3766d9d/classes.dex
+file.2=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.2_e9907f0d751b061b3214be3e000969fee255f89d/classes.dex
+file.1=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/2/dropbox-sync-sdk-android_ac95276d22a16923f364e211cd3af9ab73fb5d36/classes.dex
+file.0=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_bcaba868de2817b46c3b2a07eb02f0ce8197ee8c/classes.dex

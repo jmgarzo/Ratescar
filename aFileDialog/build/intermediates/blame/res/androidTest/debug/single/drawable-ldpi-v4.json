@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/document.png",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/bundles/debug/res/drawable-ldpi-v4/document.png"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/ic_launcher.png",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/bundles/debug/res/drawable-ldpi-v4/ic_launcher.png"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/folder.png",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/bundles/debug/res/drawable-ldpi-v4/folder.png"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/add.png",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/bundles/debug/res/drawable-ldpi-v4/add.png"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/no.png",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/bundles/debug/res/drawable-ldpi-v4/no.png"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/tick.png",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/bundles/debug/res/drawable-ldpi-v4/tick.png"
+    },
+    {
+        "merged": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/res/merged/androidTest/debug/drawable-ldpi-v4/document_gray.png",
+        "source": "/home/jmgarzo/Android/Projects/Ratescar/aFileDialog/build/intermediates/bundles/debug/res/drawable-ldpi-v4/document_gray.png"
+    }
+]

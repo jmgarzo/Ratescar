@@ -1,0 +1,7 @@
+#Mon Aug 28 17:06:54 IST 2017
+base.0=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8802c684cc41d12fcee6b42ac02b8c2e6ff93fbb
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_54966d9490bb5e648bdaab529b438291a0b6e6fc/classes.dex
+base.1=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_54966d9490bb5e648bdaab529b438291a0b6e6fc
+file.0=/home/jmgarzo/Android/Projects/Ratescar/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_8802c684cc41d12fcee6b42ac02b8c2e6ff93fbb/classes.dex

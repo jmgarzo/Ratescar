@@ -15,4 +15,3 @@
         android:showAsAction="ifRoom"
         android:title="@string/action_delete" />
 </menu>
-<!-- From: file:/C:/Users/jmgarzo/StudioProjects/Ratescar/branches/Desarrollo/RatesCar/app/src/main/res/menu/menu_frm_mantenimiento_operacion.xml -->
